@@ -45,7 +45,7 @@
     position: relative;
   }
   &__list-link:hover {
-    color: #d64545;
+    color: $hover-color;
   }
   &__list-link {
     padding-bottom: 5px;
@@ -70,15 +70,18 @@
 
 .menu__list-item {
   .products-list {
+    font-size: 15px;
     position: absolute;
-    background-color: rgba($color: #dcdcdc, $alpha: 0.8);
+    background-color: rgba($color: #e3e3e3, $alpha: 0.8);
     width: 260px;
-    padding: 25px;
+    padding: 25px 0;
     border-radius: 3px;
     display: none;
+    // opacity: 0;
+    transition: all 5s;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     &__item + .products-list__item {
-      padding-top: 15px;
+      margin-top: 15px;
     }
 
     &__item {
@@ -95,20 +98,79 @@
     &__item::after {
       content: "";
       position: absolute;
-      width: 100%;
-      height: 2px;
-      background-color: #ccc;
+      width: 80%;
+      height: 1px;
+      background-color: #9c9c9c;
       bottom: 0;
       left: 0;
+      right: 0;
+      margin: 0 auto;
+      opacity: 0.5;
+    }
+    &__link {
+      padding: 15px 25px;
     }
     &__link:hover {
-      color: #d75959;
+      color: $hover-color;
     }
   }
 }
 
 .menu__list-item:hover {
   .products-list {
+    display: block;
+  }
+}
+
+.products-list__item {
+  .products-list__resin {
+    position: absolute;
+    background-color: rgba($color: #e3e3e3, $alpha: 0.9);
+    width: 160px;
+    padding: 25px;
+    right: -161px;
+    top: -15px;
+    border-radius: 3px;
+    display: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .products-list__resin-item {
+    position: relative;
+    padding-bottom: 15px;
+    & + .products-list__resin-item {
+      padding-top: 15px;
+    }
+  }
+
+  .products-list__resin-item:last-child {
+    padding-bottom: 0;
+    &::after {
+      display: none;
+    }
+  }
+
+  .products-list__resin-item::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #9c9c9c;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 30;
+  }
+}
+.products-list__resin-link {
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  &:hover {
+    color: $hover-color;
+  }
+}
+.products-list__item:hover {
+  .products-list__resin {
     display: block;
   }
 }
