@@ -34,3 +34,35 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+.breadcrumbs {
+  padding-top: 28px;
+  @extend %title-font;
+  font-size: 14px;
+  font-weight: 400;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    position: relative;
+    padding-right: 3px;
+    margin-right: 3px;
+  }
+  &__link {
+    // display: block;
+    padding-right: 5px;
+  }
+  &__link::after {
+    content: "/";
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    bottom: 1px;
+  }
+
+  &__item:last-child {
+    .breadcrumbs__link::after {
+      content: "";
+    }
+  }
+}
