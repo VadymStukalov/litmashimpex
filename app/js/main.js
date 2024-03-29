@@ -9,9 +9,9 @@ const swiper = new Swiper(".swiper", {
 
   slidesPerView: 2.5,
   spaceBetween: 50,
-  // pagination: {
-  //   el: ".swiper-pagination",
-  // },
+  pagination: {
+    el: ".swiper-pagination",
+  },
 
   // Navigation arrows
   navigation: {
