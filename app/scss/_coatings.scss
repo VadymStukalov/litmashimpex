@@ -1,0 +1,95 @@
+.coatings {
+  padding: 70px 0 120px;
+}
+
+.coatings__purpose {
+  padding-bottom: 120px;
+}
+.coatings__purpose-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.coatings__purpose-content {
+  max-width: 460px;
+  padding-right: 30px;
+}
+.coatings__purpose-title {
+  font-size: 24px;
+  color: #fa8316;
+  margin-bottom: 26px;
+  line-height: 36px;
+  @extend %title-font;
+}
+.coatings__purpose-text {
+  line-height: 36px;
+}
+
+.choise {
+  padding-bottom: 120px;
+}
+.coatings__choise-text {
+  line-height: 36px;
+}
+
+//  Purpose section
+
+.properties {
+  background-color: rgba(207, 208, 186, 0.339);
+  &__inner {
+    padding: 120px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    max-width: 510px;
+    padding-right: 30px;
+  }
+  &__content-text {
+    line-height: 36px;
+    margin-bottom: 25px;
+  }
+  &__content-list {
+    line-height: 36px;
+  }
+  &__content-item {
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__content-item::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/check-icon.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20px;
+    height: 17px;
+    left: 0;
+  }
+
+  &__content-item:nth-child(9):before {
+    bottom: 45px;
+  }
+
+  &__image {
+    max-height: 430px;
+  }
+}
+
+//  Benefits section
+.coatings-benefits {
+  padding: 120px 0 85px;
+}
+.article-title {
+}
+.benefits__text {
+  line-height: 36px;
+}
+
+// Support section
+.coatings-support {
+}
+.support__text {
+  line-height: 36px;
+}

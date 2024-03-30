@@ -35,6 +35,14 @@ body {
   text-transform: uppercase;
 }
 
+.article-title {
+  font-size: 24px;
+  color: #fa8316;
+  margin-bottom: 26px;
+  line-height: 36px;
+  @extend %title-font;
+}
+
 .breadcrumbs {
   padding-top: 28px;
   @extend %title-font;

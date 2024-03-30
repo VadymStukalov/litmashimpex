@@ -1,0 +1,106 @@
+.filters {
+  padding: 70px 0 120px;
+  line-height: 2;
+  &__purpose {
+    padding-bottom: 120px;
+  }
+  &__purpose-text {
+    line-height: 36px;
+  }
+  &__purpose-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  &__purpose-content {
+    max-width: 500px;
+    padding-right: 30px;
+  }
+  &__purpose-description {
+  }
+  &__purpose-description-main {
+    margin-bottom: 20px;
+  }
+  &__purpose-description-text {
+  }
+  &__benefits {
+    padding: 120px 0;
+    background-color: rgba($color: #acd578, $alpha: 0.1);
+  }
+  &__benefits-item {
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__benefits-item::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/check-icon.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20px;
+    height: 17px;
+    left: 0;
+  }
+  &__features {
+    padding: 120px 0;
+  }
+  &__features-item {
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__features-item::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/check-icon.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20px;
+    height: 17px;
+    bottom: 45px;
+    left: 0;
+  }
+  &__features-item-note {
+    padding-top: 50px;
+  }
+  &__assortment {
+    background-color: rgba($color: #acd578, $alpha: 0.1);
+    padding: 120px 0;
+  }
+  &__assorment-item {
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__assorment-item::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/check-icon.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20px;
+    height: 17px;
+    bottom: 45px;
+    left: 0;
+  }
+  &__assorment-item:nth-child(3):before {
+    bottom: auto;
+  }
+  &__assortment-item-note {
+    display: contents;
+    font-weight: 600;
+  }
+  &__support {
+    padding-top: 120px;
+  }
+}
+
+.filter .filter__assortment-list {
+}
+.filter .filter .filter .filter__support-text {
+}

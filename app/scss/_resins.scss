@@ -1,0 +1,90 @@
+.resins {
+  padding: 70px 0 120px;
+  &__purpose {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+  }
+  &__purpose-content {
+    max-width: 520px;
+    padding-right: 30px;
+  }
+  &__purpose-text {
+    line-height: 36px;
+  }
+  &__purpose-image {
+    max-height: 365px;
+  }
+}
+
+.assortment {
+  padding-bottom: 120px;
+  &__propose {
+    text-align: center;
+    margin-bottom: 75px;
+  }
+}
+
+.resins__list {
+  font-size: 24px;
+  @extend %title-font;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 130px;
+}
+.resins__item-wrapper {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  background-color: green;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+.resins__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 140px;
+}
+.resins__item-wrapper:hover {
+  height: 140px;
+  .resins__list-link {
+    display: block;
+  }
+}
+.resins__list-name {
+  //   margin-bottom: 10px;
+}
+.resins__list-link {
+  font-size: 12px;
+  display: none;
+  position: absolute;
+  top: 100px;
+}
+
+.resins__support-text {
+  line-height: 36px;
+}
+
+.resins__item {
+  &-alpha-set {
+    background-color: #d16b0d;
+  }
+  &-resol {
+    background-color: #fec01e;
+  }
+  &-pepset {
+    background-color: #b0a35c;
+  }
+  &-amin {
+    background-color: #429db1;
+  }
+  &-croning {
+    background-color: #f53bb6;
+  }
+}

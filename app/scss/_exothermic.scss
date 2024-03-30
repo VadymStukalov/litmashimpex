@@ -1,0 +1,45 @@
+.exothermic {
+  padding: 70px 0 120px;
+  line-height: 2;
+  &__purpose {
+    padding-bottom: 120px;
+  }
+  &__purpose-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__purpose-content {
+    max-width: 500px;
+    padding-right: 30px;
+  }
+  &__properties {
+    padding: 120px 0;
+    background-color: rgba($color: #acd578, $alpha: 0.1);
+  }
+  &__benefits {
+    padding: 120px 0;
+  }
+  &__benefits-item {
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+  &__benefits-item::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/check-icon.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20px;
+    height: 17px;
+    left: 0;
+  }
+  &__features {
+    padding: 120px 0;
+    background-color: rgba($color: #acd578, $alpha: 0.1);
+  }
+  &__support {
+    padding-top: 120px;
+  }
+}
