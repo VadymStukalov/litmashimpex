@@ -1,0 +1,65 @@
+.service {
+  padding: 70px 0 120px;
+  &__intro {
+    line-height: 2;
+    padding-bottom: 120px;
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__intro-content {
+    max-width: 530px;
+    padding-right: 30px;
+  }
+}
+
+.service-technology {
+  background-color: rgba($color: #acd578, $alpha: 0.2);
+  padding: 120px 0;
+  line-height: 2;
+  &__text {
+    max-width: 780px;
+  }
+}
+
+.service-selection {
+  padding: 120px 0;
+  line-height: 2;
+  &__text {
+    max-width: 780px;
+  }
+}
+
+.service-approach {
+  background-color: rgba($color: #acd578, $alpha: 0.2);
+  padding: 120px 0;
+  line-height: 2;
+  &__text {
+    max-width: 780px;
+  }
+}
+
+.service-consult {
+  padding: 120px 0;
+  line-height: 2;
+  &__text {
+    max-width: 780px;
+  }
+}
+.service-consult__title {
+}
+.service-consult__text {
+}
+.service-aspirations {
+  background-color: rgba($color: #acd578, $alpha: 0.2);
+  padding: 120px 0;
+  line-height: 2;
+  &__text {
+    max-width: 780px;
+  }
+}
+.service-aspirations__title {
+}
+.service-aspirations__text {
+}

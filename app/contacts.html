@@ -11,10 +11,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
   </head>
 
   <body>
@@ -55,9 +51,7 @@
               <nav class="menu">
                 <ul class="menu__list">
                   <li class="menu__list-item">
-                    <a class="menu__list-link menu__list-link--active" href="#"
-                      >Домашня
-                    </a>
+                    <a class="menu__list-link" href="#">Домашня </a>
                   </li>
                   <li class="menu__list-item">
                     <a class="menu__list-link" href="#">Про компанію</a>
@@ -131,7 +125,9 @@
                     <a class="menu__list-link" href="#">Доставка</a>
                   </li>
                   <li class="menu__list-item">
-                    <a class="menu__list-link" href="#">Контакти </a>
+                    <a class="menu__list-link menu__list-link--active" href="#"
+                      >Контакти
+                    </a>
                   </li>
                 </ul>
               </nav>
@@ -141,234 +137,19 @@
       </header>
 
       <main class="main">
-        <section class="top">
+        <div class="breadcrumbs">
           <div class="container">
-            <div class="top__content">
-              <div class="top__content-text">
-                <h1 class="top__content-title">Технології та матеріали</h1>
-                <p class="top__content-subtitle">
-                  для отримання <br />
-                  якісного литва
-                </p>
-                <div class="top__btn">
-                  <a class="top__content-link" href="#">перейти до каталогу</a>
-                </div>
-              </div>
-              <div class="top__content-picture">
-                <img
-                  class="top__content-img"
-                  src="images/top-picture.jpeg"
-                  alt="top picture"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="company">
-          <div class="company__inner">
-            <div class="company__image">
-              <img
-                class="company__img"
-                src="images/turbine.jpeg"
-                alt="turbine"
-              />
-            </div>
-            <div class="company__about">
-              <div class="company__wrapper">
-                <h3 class="company__about-title">Компанія “ЛІТМАШІМПЕКС”</h3>
-                <p class="company__about-text">
-                  Ваш надійний партнер у галузі ливарного виробництва. Ми
-                  спеціалізуємося на наданні комплексних рішень, включаючи
-                  постачання високоякісних матеріалів та надаємо технічний
-                  супровід для ливарних підприємств. Наша компанія поєднує
-                  досвід та професіоналізм, щоб допомогти вам оптимізувати
-                  виробничі процеси, підвищити ефективність та забезпечити
-                  високу якість продукції. З нами ви можете бути впевнені в
-                  надійній підтримці та постачанні необхідних ресурсів для
-                  успішного ливарного виробництва.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="products">
-          <div class="container">
-            <h2 class="section-title">НАША ПРОДУКЦІЯ</h2>
-
-            <div class="swiper">
-              <!-- Additional required wrapper -->
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                  <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-exo.jpeg"
-                      alt="exotermic materials"
-                    />
-                    <h4 class="products-card__title">Екзотермічні матеріали</h4>
-                    <a class="products-card__link" href="#">Детальніше</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-resins2.jpg"
-                      alt="exotermic materials"
-                    />
-                    <h4 class="products-card__title">
-                      Смоли для формоутворення
-                    </h4>
-                    <a class="products-card__link" href="#">Детальніше</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-filters.jpeg"
-                      alt="exotermic materials"
-                    />
-                    <h4 class="products-card__title">Пінокерамічні фільтри</h4>
-                    <a class="products-card__link" href="#">Детальніше</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-coatings.jpeg"
-                      alt="exotermic materials"
-                    />
-                    <h4 class="products-card__title">Протипригарні покриття</h4>
-                    <a class="products-card__link" href="#">Детальніше</a>
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-auxiliary.jpeg"
-                      alt="exotermic materials"
-                    />
-                    <h4 class="products-card__title">Допоміжні матеріали</h4>
-                    <a class="products-card__link" href="#">Детальніше</a>
-                  </div>
-                </div>
-                ...
-              </div>
-              <!-- If we need pagination -->
-              <div class="swiper-pagination"></div>
-
-              <!-- If we need navigation buttons -->
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-
-              <!-- If we need scrollbar -->
-              <div class="swiper-scrollbar"></div>
-            </div>
-          </div>
-        </section>
-        <section class="servise">
-          <div class="container">
-            <div class="servise__inner">
-              <div class="servise__content">
-                <h2 class="section-title servise-title">Сервіс</h2>
-                <p class="servise__text">
-                  Ми втілюємо новітні технології за допомогою сучасних
-                  програмних продуктів та моделювання процесів.
-                </p>
-                <p class="servise__text">
-                  Наші фахівці надають найкращі технічні рішення та методи
-                  застосування ливарних матеріалів, щоб забезпечити найвищу
-                  якість литва.
-                </p>
-              </div>
-              <img
-                class="sevice__img"
-                src="images/service.jpg"
-                alt="modeling"
-              />
-            </div>
-          </div>
-        </section>
-        <section class="benefits">
-          <div class="container">
-            <h2 class="section-title">ПЕРЕВАГИ СПІВПРАЦІ З НАМИ</h2>
-            <ul class="benefits__list">
-              <li class="benefits__list-item">
-                <img
-                  src="images/quality.svg"
-                  alt=""
-                  class="benefits__item-img"
-                />
-                <h4 class="benefits__item-title">Висока якість</h4>
-                <p class="benefits__item-text">
-                  Наші матеріали відповідають найвищим стандартам якості.
-                </p>
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">Домашня </a>
               </li>
-              <li class="benefits__list-item">
-                <img
-                  src="images/individual.svg"
-                  alt=""
-                  class="benefits__item-img"
-                />
-                <h4 class="benefits__item-title">Індивідуальний підхід</h4>
-                <p class="benefits__item-text">
-                  Ми розробляємо унікальні рішення та надаємо персоналізований
-                  сервіс, враховуючи ваші конкретні потреби та завдання.
-                </p>
-              </li>
-              <li class="benefits__list-item">
-                <img src="images/save.svg" alt="" class="benefits__item-img" />
-                <h4 class="benefits__item-title">Економічні рішення</h4>
-                <p class="benefits__item-text">
-                  Наша співпраця допоможе вам оптимізувати витрати та підвищити
-                  ефективність ливарного виробництва.
-                </p>
-              </li>
-              <li class="benefits__list-item">
-                <img
-                  src="images/support.svg"
-                  alt=""
-                  class="benefits__item-img"
-                />
-                <h4 class="benefits__item-title">Технічний супровід</h4>
-                <p class="benefits__item-text">
-                  Ми надаємо технічні рішення та консультації щодо використання
-                  матеріалів , щоб допомогти вам досягти кращих результатів.
-                </p>
-              </li>
-              <li class="benefits__list-item">
-                <img
-                  src="images/stable.svg"
-                  alt=""
-                  class="benefits__item-img"
-                />
-                <h4 class="benefits__item-title">Стабільність та надійність</h4>
-                <p class="benefits__item-text">
-                  Ми гарантуємо стабільні поставки та довгострокове надійне
-                  взаємовигідне співробітництво.
-                </p>
-              </li>
-              <li class="benefits__list-item">
-                <img
-                  src="images/warehouse.svg"
-                  alt=""
-                  class="benefits__item-img"
-                />
-                <h4 class="benefits__item-title">Наявність на складі</h4>
-                <p class="benefits__item-text">
-                  Розумне планування та наявні запаси матеріалів на складі
-                  дозволяють забезпечити швидке, стабільне та безпербійне
-                  постачання.
-                </p>
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link"> Контакти</a>
               </li>
             </ul>
           </div>
-        </section>
-        <section class="contacts">
+        </div>
+        <section class="contacts section-contacts">
           <div class="container">
             <h2 class="section-title">КОНТАКТИ</h2>
             <div class="contacts__inner">
@@ -460,7 +241,6 @@
           </div>
         </section>
       </main>
-
       <footer class="footer">
         <div class="footer__content">
           <div class="container">
@@ -583,7 +363,7 @@
         </div>
       </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="js/main.min.js"></script>
   </body>
 </html>
