@@ -1,0 +1,53 @@
+.about-company {
+  padding: 70px 0 120px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+  }
+  &__content {
+    max-width: 510px;
+    padding-right: 30px;
+    line-height: 2;
+  }
+  &__content-text-name {
+    text-transform: uppercase;
+    color: #d33535;
+  }
+  &__content-text-slogan {
+    padding-top: 140px;
+    text-align: right;
+    max-width: 360px;
+    margin-left: auto;
+    font-weight: 700;
+  }
+  &__principles {
+    background-color: rgba($color: #acd578, $alpha: 0.2);
+    padding: 120px 0;
+    line-height: 2;
+  }
+  &__logistics {
+    padding: 120px 0;
+  }
+  &__logistics-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logistics-content {
+    max-width: 520px;
+    padding-right: 30px;
+    line-height: 2;
+  }
+  &__logistics-content {
+    max-width: 520px;
+    padding-right: 30px;
+  }
+}
+
+.benefits-about {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.benefits__list::after {
+  content: none;
+}

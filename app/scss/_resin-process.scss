@@ -1,0 +1,49 @@
+.resin-process {
+  padding: 70px 0 120px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    max-width: 520px;
+    padding-right: 30px;
+    line-height: 2;
+  }
+  &__card {
+    @extend %title-font;
+    font-size: 48px;
+    color: #fff;
+    padding: 143px 5px;
+    background-color: #43844a;
+    max-width: 554px;
+    max-height: 365px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  &__gallery {
+    padding-top: 97px;
+  }
+  &__gallery-inner {
+    display: flex;
+    gap: 13px;
+  }
+  &__card-alpha {
+    background-color: #d16b0d;
+  }
+  &__card-resol {
+    background-color: #fec01e;
+  }
+  &__card-pepset {
+    background-color: #b0a35c;
+  }
+  &__card-amin {
+    background-color: #429db1;
+  }
+  &__card-croning {
+    background-color: #f53bb6;
+  }
+}
