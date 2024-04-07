@@ -103,3 +103,10 @@ body {
   width: 90%;
   margin-left: auto;
 }
+
+.benefits-swiper {
+  overflow: hidden;
+}
+.benefits__list.benefits-swiper {
+  position: relative;
+}

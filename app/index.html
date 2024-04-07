@@ -172,11 +172,11 @@
         <section class="company">
           <div class="company__inner">
             <div class="company__image">
-              <img
+              <!-- <img
                 class="company__img"
                 src="images/turbine.jpeg"
                 alt="turbine"
-              />
+              /> -->
             </div>
             <div class="company__about">
               <div class="company__wrapper">
@@ -198,7 +198,7 @@
         </section>
         <section class="products">
           <div class="container">
-            <h2 class="section-title">НАША ПРОДУКЦІЯ</h2>
+            <h2 class="section-title products__title">НАША ПРОДУКЦІЯ</h2>
 
             <div class="swiper">
               <!-- Additional required wrapper -->
@@ -290,17 +290,21 @@
                   якість литва.
                 </p>
               </div>
-              <img
-                class="sevice__img"
-                src="images/service.jpg"
-                alt="modeling"
-              />
+              <div class="servise__picture">
+                <img
+                  class="sevice__img"
+                  src="images/service.jpg"
+                  alt="modeling"
+                />
+              </div>
             </div>
           </div>
         </section>
         <section class="benefits">
           <div class="container">
-            <h2 class="section-title">ПЕРЕВАГИ СПІВПРАЦІ З НАМИ</h2>
+            <h2 class="section-title benefits__title">
+              ПЕРЕВАГИ СПІВПРАЦІ З НАМИ
+            </h2>
             <ul class="benefits__list">
               <li class="benefits__list-item">
                 <img
@@ -370,6 +374,15 @@
                   постачання.
                 </p>
               </li>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
             </ul>
           </div>
         </section>
