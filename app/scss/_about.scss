@@ -15,7 +15,7 @@
     color: #d33535;
   }
   &__content-text-slogan {
-    padding-top: 140px;
+    padding-top: 115px;
     text-align: right;
     max-width: 360px;
     margin-left: auto;
@@ -41,6 +41,10 @@
   &__logistics-content {
     max-width: 520px;
     padding-right: 30px;
+  }
+
+  .benefits::after {
+    content: none;
   }
 }
 

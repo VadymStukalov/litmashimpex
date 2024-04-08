@@ -23,9 +23,23 @@
   }
 }
 
+@media (max-width: 1187px) {
+  .about-company__content {
+    max-width: 494px;
+  }
+}
+
 @media (max-width: 1080px) {
   .benefits__list-item {
     max-width: 290px;
+  }
+}
+@media (max-width: 1100px) {
+  .about-company__content {
+    max-width: 445px;
+  }
+  .about-company__content-text-slogan {
+    padding-top: 53px;
   }
 }
 
@@ -67,6 +81,52 @@
   .contacts__content {
     font-size: 16px;
   }
+  .about-company__content {
+    font-size: 16px;
+    padding-right: 70px;
+  }
+  .about-company__principles-text {
+    font-size: 16px;
+  }
+  .article-title {
+    font-size: 22px;
+  }
+  .about-company__logistics-content-text {
+    font-size: 16px;
+  }
+  .about-company__logistics-content {
+    max-width: 500px;
+    padding-right: 50px;
+  }
+  .service__content-text {
+    font-size: 16px;
+  }
+  .service-technology__text {
+    font-size: 16px;
+  }
+  .service-selection__text {
+    font-size: 16px;
+  }
+  .service-approach__text {
+    font-size: 16px;
+  }
+  .service-consult__text {
+    font-size: 16px;
+  }
+  .service-aspirations__text {
+    font-size: 16px;
+  }
+
+  .delivery__warehouse-content {
+    font-size: 16px;
+  }
+  .delivery__auto-content-text {
+    font-size: 16px;
+  }
+  .delivery__warehouse-content {
+    max-width: 500px;
+    padding-left: 50px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -96,6 +156,30 @@
   }
   .contacts__map iframe {
     max-width: 500px;
+  }
+  .about-company__picture {
+    max-width: 450px;
+  }
+  .about-company__content-text-slogan {
+    padding-top: 21px;
+  }
+  .about-company__logistics-content {
+    max-width: 475px;
+    padding-right: 30px;
+  }
+  .service__intro-content {
+    max-width: 445px;
+    padding-right: 30px;
+  }
+  .service__intro-picture {
+    max-width: 100%;
+  }
+  .delivery__auto-content {
+    max-width: 500px;
+  }
+  .delivery__warehouse-content {
+    max-width: 470px;
+    padding-left: 50px;
   }
 }
 @media (max-width: 920px) {
@@ -153,6 +237,60 @@
   .contacts__content {
     font-size: 14px;
   }
+  .about-company__content {
+    font-size: 14px;
+  }
+  .about-company__content {
+    max-width: 350px;
+    padding-right: 60px;
+  }
+  .about-company__principles-text {
+    font-size: 14px;
+  }
+  .article-title {
+    font-size: 20px;
+  }
+  .about-company__logistics-content-text {
+    font-size: 14px;
+  }
+  .about-company__logistics-content {
+    max-width: 424px;
+    padding-right: 40px;
+  }
+  .service__intro-content {
+    max-width: 400px;
+    padding-right: 40px;
+  }
+  .service__intro-picture {
+    display: flex;
+
+    align-items: center;
+  }
+  .service__intro-image {
+    align-items: center;
+    max-height: 353px;
+  }
+  .service__content-text {
+    font-size: 14px;
+  }
+  .service-technology__text {
+    font-size: 14px;
+  }
+  .service-selection__text {
+    font-size: 14px;
+  }
+  .delivery__warehouse-content {
+    font-size: 14px;
+  }
+  .delivery__auto-content-text {
+    font-size: 14px;
+  }
+  .delivery__auto-content {
+    max-width: 450px;
+  }
+  .delivery__warehouse-content {
+    max-width: 444px;
+  }
 }
 
 @media (max-width: 870px) {
@@ -178,6 +316,13 @@
   .contacts__map iframe {
     max-width: 500px;
   }
+  .about-company__logistics-content {
+    max-width: 381px;
+    padding-right: 46px;
+  }
+  .delivery__warehouse-content {
+    max-width: 410px;
+  }
 }
 @media (max-width: 870px) {
   .benefits__list-item {
@@ -185,6 +330,30 @@
   }
   .benefits__list {
     gap: 30px;
+  }
+}
+
+@media (max-width: 870px) {
+  .about-company__logistics-content {
+    max-width: 361px;
+    padding-right: 46px;
+  }
+}
+
+@media (max-width: 840px) {
+  .about-company__logistics-inner {
+    flex-direction: column;
+  }
+  .about-company__logistics-image {
+    width: 100%;
+  }
+  .about-company__logistics-content {
+    max-width: 100%;
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+  .delivery__auto-content {
+    max-width: 395px;
   }
 }
 
@@ -264,6 +433,90 @@
   .footer__content {
     padding: 80px 0;
   }
+  .benefits-about {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .about-company {
+    padding: 50px 0 80px;
+  }
+  .section-title {
+    margin-bottom: 50px;
+  }
+  .about-company__inner {
+    padding-bottom: 80px;
+  }
+  .about-company__principles {
+    padding: 80px 0 80px;
+  }
+  .about-company__logistics {
+    padding: 80px 0 80px;
+  }
+  .service__intro-content {
+    max-width: 360px;
+    padding-right: 40px;
+  }
+  .service {
+    padding: 50px 0 80px;
+  }
+  .service__intro {
+    padding-bottom: 80px;
+  }
+  .service-technology {
+    padding: 80px 0;
+  }
+  .service-selection {
+    padding: 80px 0;
+  }
+  .service-approach {
+    padding: 80px 0;
+  }
+  .service-consult {
+    padding: 80px 0;
+  }
+  .service-aspirations {
+    padding: 80px 0;
+  }
+  .delivery__auto-content {
+    max-width: 360px;
+  }
+  .delivery__auto-inner {
+    flex-direction: column;
+  }
+  .delivery__auto-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .delivery__auto-content {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .delivery {
+    padding: 50px 0 80px;
+  }
+  .delivery__auto {
+    padding-bottom: 80px;
+  }
+  .delivery__warehouse-inner {
+    flex-direction: column;
+  }
+
+  .delivery__warehouse-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .delivery__warehouse-content {
+    max-width: 100%;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  .delivery__warehouse-picture {
+    order: 1;
+  }
+  .delivery__warehouse {
+    padding: 80px 0;
+  }
 }
 
 @media (max-width: 800px) {
@@ -278,6 +531,10 @@
   }
   .benefits__list-item {
     margin-bottom: 20px;
+  }
+  .service__intro-content {
+    max-width: 323px;
+    padding-right: 40px;
   }
 }
 @media (min-width: 800px) {
@@ -317,6 +574,13 @@
   .footer__menu-list + .footer__menu-list {
     padding-left: 80px;
   }
+  .about-company__content {
+    max-width: 300px;
+    padding-right: 30px;
+  }
+  .service__intro-content {
+    max-width: 290px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -351,6 +615,21 @@
   }
   .footer .footer__social {
     justify-content: center;
+  }
+  .service__intro-inner {
+    flex-direction: column;
+  }
+  .service__intro-content {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .service__intro-image {
+    max-height: 100%;
+    width: 100%;
+  }
+  .service__intro-picture {
+    display: block;
   }
 }
 
@@ -391,6 +670,10 @@
   }
   .top__content-subtitle {
     margin-bottom: 22px;
+  }
+  .about-company__content {
+    max-width: 272px;
+    padding-right: 30px;
   }
 }
 @media (max-width: 650px) {
@@ -470,6 +753,33 @@
   }
   .footer__menu-list:last-child {
     padding-left: 0;
+  }
+  .about-company__inner {
+    flex-direction: column;
+  }
+  .about-company__content {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .about-company__picture {
+    max-width: 100%;
+  }
+  .about-company__image {
+    width: 100%;
+  }
+  .about-company__content {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .delivery__auto-image {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .delivery__warehouse-image {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -588,6 +898,79 @@
   }
   .contacts {
     padding-bottom: 48px;
+  }
+  .about-company__title {
+    margin-bottom: 30px;
+  }
+  .about-company {
+    padding: 30px 0 50px;
+  }
+  .about-company__inner {
+    padding-bottom: 50px;
+  }
+  .about-company__principles {
+    padding: 50px 0 50px;
+  }
+  .article-title {
+    font-size: 18px;
+  }
+  .about-company__logistics {
+    padding: 50px 0 50px;
+  }
+  .benefits-about {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .service {
+    padding: 30px 0 50px;
+  }
+  .service__intro {
+    padding-bottom: 50px;
+  }
+  .service__content-text {
+    font-size: 14px;
+  }
+  .service-technology__text {
+    font-size: 14px;
+  }
+  .service-selection__text {
+    font-size: 14px;
+  }
+  .service-approach__text {
+    font-size: 14px;
+  }
+  .service-consult__text {
+    font-size: 14px;
+  }
+  .service-aspirations__text {
+    font-size: 14px;
+  }
+  .service__intro {
+    padding-bottom: 80px;
+  }
+  .service-technology {
+    padding: 50px 0;
+  }
+  .service-selection {
+    padding: 50px 0;
+  }
+  .service-approach {
+    padding: 50px 0;
+  }
+  .service-consult {
+    padding: 50px 0;
+  }
+  .service-aspirations {
+    padding: 50px 0;
+  }
+  .delivery {
+    padding: 30px 0 50px;
+  }
+  .delivery__auto {
+    padding-bottom: 50px;
+  }
+  .delivery__warehouse {
+    padding: 50px 0;
   }
 }
 
