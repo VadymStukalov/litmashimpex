@@ -21,6 +21,13 @@
   .benefits__list {
     justify-content: center;
   }
+  .resin-process__gallery-inner {
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+  }
+  .resin-process__gallery-image {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1187px) {
@@ -40,6 +47,9 @@
   }
   .about-company__content-text-slogan {
     padding-top: 53px;
+  }
+  .catalogue__title-link {
+    font-size: 20px;
   }
 }
 
@@ -127,6 +137,18 @@
     max-width: 500px;
     padding-left: 50px;
   }
+  .resin-process__content {
+    padding-right: 40px;
+  }
+  .resin-process__content-text {
+    font-size: 16px;
+  }
+  .resin-process__content {
+    max-width: 460px;
+  }
+  .resin-process__card {
+    // max-height: 320px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -180,6 +202,17 @@
   .delivery__warehouse-content {
     max-width: 470px;
     padding-left: 50px;
+  }
+
+  .catalogue__list-item:nth-child(even) {
+    padding-left: 100px;
+  }
+  .catalogue__list-item:nth-child(odd) {
+    padding-right: 100px;
+    border-right: 2px solid #e9e9e9;
+  }
+  .resin-process__card {
+    max-height: 326px;
   }
 }
 @media (max-width: 920px) {
@@ -291,6 +324,18 @@
   .delivery__warehouse-content {
     max-width: 444px;
   }
+  .catalogue__list-item:nth-child(even) {
+    padding-left: 80px;
+  }
+  .catalogue__list-item:nth-child(odd) {
+    padding-right: 80px;
+  }
+  .resin-process__content-text {
+    font-size: 14px;
+  }
+  .resin-process__card {
+    max-height: 300px;
+  }
 }
 
 @media (max-width: 870px) {
@@ -323,6 +368,9 @@
   .delivery__warehouse-content {
     max-width: 410px;
   }
+  .resin-process__content {
+    max-width: 416px;
+  }
 }
 @media (max-width: 870px) {
   .benefits__list-item {
@@ -354,6 +402,12 @@
   }
   .delivery__auto-content {
     max-width: 395px;
+  }
+  .catalogue__list-item:nth-child(even) {
+    padding-left: 60px;
+  }
+  .catalogue__list-item:nth-child(odd) {
+    padding-right: 60px;
   }
 }
 
@@ -517,6 +571,18 @@
   .delivery__warehouse {
     padding: 80px 0;
   }
+  .catalogue__title-link {
+    font-size: 18px;
+  }
+  .catalogue {
+    padding: 50px 0 80px;
+  }
+  .resin-process__content {
+    max-width: 374px;
+  }
+  .resin-process__content {
+    max-width: 354px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -581,12 +647,41 @@
   .service__intro-content {
     max-width: 290px;
   }
+  .catalogue__title-link {
+    font-size: 16px;
+  }
+  .catalogue__title-link::after {
+    font-size: 16px;
+  }
+  .resin-process__content {
+    max-width: 322px;
+  }
 }
 
 @media (max-width: 700px) {
   .servise__picture {
     display: flex;
     align-items: center;
+  }
+  .catalogue__list-item:nth-child(even) {
+    padding-left: 40px;
+  }
+  .catalogue__list-item:nth-child(odd) {
+    padding-right: 40px;
+  }
+  .catalogue__list-item {
+    padding-bottom: 30px;
+  }
+  .resin-process__inner {
+    flex-direction: column;
+  }
+  .resin-process__content {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .resin-process__card {
+    margin: 0 auto;
   }
 }
 
@@ -681,6 +776,15 @@
     padding: 0px 5px 0px 5px;
     max-width: 220px;
   }
+  .catalogue__list-item:nth-child(even) {
+    padding-left: 30px;
+  }
+  .catalogue__list-item:nth-child(odd) {
+    padding-right: 30px;
+  }
+  .catalogue__title-link {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -769,6 +873,33 @@
   }
   .about-company__content {
     padding-right: 0;
+  }
+  .catalogue__list {
+    grid-template-columns: 1fr;
+  }
+  .catalogue__list-card,
+  .catalogue__list-item,
+  .catalogue__list-item:nth-child(odd),
+  .catalogue__list-item:nth-child(even) {
+    padding: 0;
+    margin: 0;
+    border-right: none;
+  }
+  .catalogue__img-link {
+    // width: 100%;
+    margin: 0 auto;
+  }
+  .catalogue__list-card:hover {
+    box-shadow: none;
+    transform: none;
+  }
+
+  .catalogue {
+    .catalogue__list-item {
+      padding-bottom: 30px;
+      margin-bottom: 10px;
+      padding-top: 20px;
+    }
   }
 }
 
@@ -971,6 +1102,20 @@
   }
   .delivery__warehouse {
     padding: 50px 0;
+  }
+  .catalogue {
+    padding: 30px 0 50px;
+  }
+  .catalogue-title {
+    margin-bottom: 20px;
+  }
+  .resin-process__card {
+    padding: 70px 0;
+  }
+  .resin-process__card {
+    font-size: 34px;
+  }
+  .resin-process__gallery-inner {
   }
 }
 
