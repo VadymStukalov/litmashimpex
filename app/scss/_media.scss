@@ -583,6 +583,12 @@
   .resin-process__content {
     max-width: 354px;
   }
+  .resin-process__gallery {
+    padding-top: 80px;
+  }
+  .resin-process {
+    padding: 50px 0 80px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -655,6 +661,9 @@
   }
   .resin-process__content {
     max-width: 322px;
+  }
+  .resin-process__card {
+    font-size: 43px;
   }
 }
 
@@ -938,6 +947,24 @@
   .company__about {
     padding-bottom: 0px;
   }
+  .resin-process__card {
+    font-size: 35px;
+
+    padding: 99px 5px;
+
+    max-width: 375px;
+  }
+  .resin-process__gallery-inner {
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .resin-process__gallery-wrapper {
+    width: 100%;
+  }
+  .resin-process__gallery-wrapper + .resin-process__gallery-wrapper {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1116,6 +1143,12 @@
     font-size: 34px;
   }
   .resin-process__gallery-inner {
+  }
+  .resin-process__gallery {
+    padding-top: 50px;
+  }
+  .resin-process {
+    padding: 30px 0 50px;
   }
 }
 

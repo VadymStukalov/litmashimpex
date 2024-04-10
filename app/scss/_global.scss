@@ -50,6 +50,7 @@ body {
   font-weight: 400;
   &__list {
     display: flex;
+    overflow-x: auto;
   }
   &__item {
     position: relative;
@@ -57,10 +58,10 @@ body {
     margin-right: 3px;
   }
   &__link {
-    // display: block;
     padding-right: 5px;
+    white-space: nowrap;
   }
-  &__link::after {
+  &__item::after {
     content: "/";
     font-size: 12px;
     position: absolute;
@@ -68,10 +69,8 @@ body {
     bottom: 1px;
   }
 
-  &__item:last-child {
-    .breadcrumbs__link::after {
-      content: "";
-    }
+  &__item:last-child::after {
+    content: "";
   }
 }
 
