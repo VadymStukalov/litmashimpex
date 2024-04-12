@@ -1,7 +1,8 @@
 .top {
   padding: 110px 0;
+  position: relative;
   // max-height: calc(100vh - 132px);
-  //   height: calc(100vh - 132px);
+  height: calc(100vh - 132px);
   &__content {
     display: flex;
     justify-content: space-between;

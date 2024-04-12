@@ -109,3 +109,26 @@ body {
 .benefits__list.benefits-swiper {
   position: relative;
 }
+.swiper,
+.benefits-swiper {
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: rgb(107, 122, 111);
+    background-color: rgba($color: #c7c7c7, $alpha: 0.7);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    // top: auto;
+    // bottom: 0;
+    // right: 0;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: rgba($color: #c7c7c7, $alpha: 0.4);
+  }
+}

@@ -36,6 +36,15 @@
   }
 }
 
+@media (max-width: 1187px) {
+  .purpose-content {
+    padding-right: 50px;
+  }
+  .filters__assorment-item::before {
+    top: 5px;
+  }
+}
+
 @media (max-width: 1080px) {
   .benefits__list-item {
     max-width: 290px;
@@ -149,6 +158,15 @@
   .resin-process__card {
     // max-height: 320px;
   }
+  .purpose-text {
+    font-size: 16px;
+  }
+  .info-bloc__text {
+    font-size: 16px;
+  }
+  .filters__features-item::before {
+    top: 5px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -214,7 +232,34 @@
   .resin-process__card {
     max-height: 326px;
   }
+  .resins__list {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px 31px;
+  }
+  .assortment__propose {
+    margin-bottom: 36px;
+  }
 }
+
+@media (max-width: 970px) {
+  .purpose-content {
+    max-width: 438px;
+  }
+  .resins__item-wrapper {
+    height: 100%;
+  }
+  .resins__list-link {
+    display: block;
+  }
+  .filters__purpose-inner {
+    margin-bottom: 32px;
+  }
+  .properties__content-item::before {
+    top: 9px;
+  }
+}
+
 @media (max-width: 920px) {
   .menu {
     display: none;
@@ -336,6 +381,24 @@
   .resin-process__card {
     max-height: 300px;
   }
+  .top__arrow-down {
+    display: none;
+  }
+  .top {
+    height: 100%;
+  }
+  .purpose-text {
+    font-size: 14px;
+  }
+  .info-bloc__text {
+    font-size: 14px;
+  }
+  .info-block {
+    padding: 80px 0;
+  }
+  .filters__features-item-note {
+    padding-top: 32px;
+  }
 }
 
 @media (max-width: 870px) {
@@ -370,6 +433,9 @@
   }
   .resin-process__content {
     max-width: 416px;
+  }
+  .purpose-content {
+    max-width: 393px;
   }
 }
 @media (max-width: 870px) {
@@ -589,6 +655,60 @@
   .resin-process {
     padding: 50px 0 80px;
   }
+  .purpose-content {
+    max-width: 330px;
+  }
+  .exothermic__purpose {
+    padding-bottom: 80px;
+  }
+  .exothermic {
+    padding: 50px 0 80px;
+  }
+  .exothermic__support {
+    padding-bottom: 0;
+  }
+  .resins__purpose {
+    padding: 50px 0 80px;
+  }
+  .assortment {
+    padding-bottom: 80px;
+  }
+  .resins {
+    padding: 50px 0 80px;
+  }
+  .filters__purpose {
+    padding-bottom: 80px;
+  }
+  .filters__benefits {
+    padding: 80px 0;
+  }
+  .filters__features {
+    padding: 80px 0;
+  }
+  .filters__assortment {
+    padding: 80px 0;
+  }
+  .filters__support {
+    padding-top: 80px;
+  }
+  .filters {
+    padding: 50px 0 80px;
+  }
+  .coatings__purpose {
+    padding-bottom: 80px;
+  }
+  .choise {
+    padding-bottom: 80px;
+  }
+  .properties__inner {
+    padding: 80px 0;
+  }
+  .coatings-benefits {
+    padding: 80px 0 80px;
+  }
+  .coatings {
+    padding: 50px 0 80px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -664,6 +784,21 @@
   }
   .resin-process__card {
     font-size: 43px;
+  }
+  .purpose-inner {
+    flex-direction: column;
+  }
+  .purpose-content {
+    max-width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .purpose-image {
+    width: 100%;
+  }
+  .properties__picture {
+    order: -1;
+    margin-bottom: 30px;
   }
 }
 
@@ -780,6 +915,17 @@
     padding-right: 30px;
   }
 }
+
+@media (max-width: 661px) {
+  .resins__item-wrapper {
+    position: relative;
+    width: 230px;
+  }
+  .resins__list {
+    gap: 20px 0px;
+  }
+}
+
 @media (max-width: 650px) {
   .top__btn {
     padding: 0px 5px 0px 5px;
@@ -910,6 +1056,31 @@
       padding-top: 20px;
     }
   }
+  .catalogue__list-card {
+    max-width: 460px;
+  }
+  .catalogue__list-item {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 607px) {
+  .exothermic__benefits-item:nth-child(5):before {
+    top: 5px;
+  }
+}
+
+@media (max-width: 586px) {
+  .assortment__propose {
+    margin-bottom: 36px;
+  }
+  .resins__list-name {
+    font-size: 18px;
+  }
+  .resins__item-wrapper {
+    width: 200px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -965,6 +1136,31 @@
   .resin-process__gallery-wrapper + .resin-process__gallery-wrapper {
     margin-top: 10px;
   }
+  .resins__item-wrapper {
+    width: 170px;
+  }
+  .resins__list-item {
+    height: 120px;
+  }
+  .resins__list-link {
+    top: 85px;
+  }
+}
+
+@media (max-width: 468px) {
+  .exothermic__benefits-item:nth-child(3):before {
+    top: 5px;
+  }
+}
+@media (max-width: 433px) {
+  .exothermic__benefits-item:nth-child(4):before {
+    top: 5px;
+  }
+}
+@media (max-width: 429px) {
+  .exothermic__benefits-item:nth-child(6):before {
+    top: 5px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -979,8 +1175,15 @@
     max-width: 200px;
     color: #fff;
   }
+  .resins__item-wrapper {
+    width: 150px;
+  }
 }
-
+@media (max-width: 389px) {
+  .filters__benefits-item::before {
+    top: 5px;
+  }
+}
 @media (max-width: 381px) {
   .footer__menu {
     flex-direction: column;
@@ -1150,6 +1353,60 @@
   .resin-process {
     padding: 30px 0 50px;
   }
+  .exothermic {
+    padding: 30px 0 50px;
+  }
+  .exothermic__purpose {
+    padding-bottom: 50px;
+  }
+  .info-block {
+    padding: 50px 0;
+  }
+  .exothermic__support {
+    padding-bottom: 0;
+  }
+  .resins__item-wrapper {
+    width: 140px;
+  }
+  .assortment {
+    padding-bottom: 50px;
+  }
+  .resins {
+    padding: 30px 0 50px;
+  }
+  .filters__purpose {
+    padding-bottom: 50px;
+  }
+  .filters__benefits {
+    padding: 50px 0;
+  }
+  .filters__features {
+    padding: 50px 0;
+  }
+  .filters__assortment {
+    padding: 50px 0;
+  }
+  .filters__support {
+    padding-top: 50px;
+  }
+  .filters {
+    padding: 30px 0 50px;
+  }
+  .coatings__purpose {
+    padding-bottom: 50px;
+  }
+  .choise {
+    padding-bottom: 50px;
+  }
+  .properties__inner {
+    padding: 50px 0;
+  }
+  .coatings-benefits {
+    padding: 50px 0 50px;
+  }
+  .coatings {
+    padding: 30px 0 50px;
+  }
 }
 
 @media (max-width: 350px) {
@@ -1158,6 +1415,12 @@
   }
   .benefits__list-item {
     min-height: 347px;
+  }
+  .resins__list-name {
+    font-size: 16px;
+  }
+  .resins__item-wrapper {
+    width: 128px;
   }
 }
 
