@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  position: relative;
 }
 
 .main {
@@ -130,5 +131,26 @@ body {
   .swiper-button-next:hover,
   .swiper-button-prev:hover {
     background-color: rgba($color: #c7c7c7, $alpha: 0.4);
+  }
+}
+
+.close-btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  display: none;
+  &__line {
+    background-color: red;
+    height: 2px;
+    width: 100%;
+    display: block;
+    transform: translate(0px, 1px) rotate(45deg);
+  }
+  &__line-2 {
+    transform: translate(0px, -1px) rotate(-45deg);
   }
 }

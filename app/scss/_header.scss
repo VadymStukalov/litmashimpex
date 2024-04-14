@@ -42,12 +42,13 @@
     line-height: 19px;
   }
   &__list-item {
-    position: relative;
+    // position: relative;
   }
   &__list-link:hover {
     color: $hover-color;
   }
   &__list-link {
+    position: relative;
     padding-bottom: 5px;
     display: inline-block;
   }
@@ -173,4 +174,8 @@
   .products-list__resin {
     display: block;
   }
+}
+
+.cat-down-img {
+  display: none;
 }

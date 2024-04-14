@@ -3,7 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Материалі для ливарного виробництва</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -62,6 +80,10 @@
                 <span class="menu__btn-line"></span>
               </button>
               <nav class="menu">
+                <button class="close-btn">
+                  <span class="close-btn__line"></span>
+                  <span class="close-btn__line close-btn__line-2"></span>
+                </button>
                 <ul class="menu__list">
                   <li class="menu__list-item">
                     <a
@@ -75,20 +97,32 @@
                       >Про компанію</a
                     >
                   </li>
-                  <li class="menu__list-item">
+                  <li class="menu__list-item menu__list-item--products">
                     <a class="menu__list-link" href="catalogue.html"
                       >Продукція</a
                     >
+
+                    <img
+                      class="cat-down-img"
+                      src="images/cat-down.svg"
+                      alt="catalog-down"
+                    />
+
                     <ul class="products-list">
                       <li class="products-list__item">
                         <a class="products-list__link" href="exothermic.html"
                           >Екзотермічні матеріали</a
                         >
                       </li>
-                      <li class="products-list__item">
+                      <li class="products-list__item menu__list-item--products">
                         <a class="products-list__link" href="resins.html"
                           >Смоли для формоутворення</a
                         >
+                        <!-- <img
+                          class="cat-down-img"
+                          src="images/cat-down.svg"
+                          alt="catalog-down"
+                        /> -->
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
                             <a
@@ -145,6 +179,11 @@
                         >
                       </li>
                       <li class="products-list__item">
+                        <a class="products-list__link" href="coatings.html"
+                          >Пісок</a
+                        >
+                      </li>
+                      <li class="products-list__item">
                         <a class="products-list__link" href="#"
                           >Допоміжні матеріали</a
                         >
@@ -168,7 +207,6 @@
           </div>
         </div>
       </header>
-
       <main class="main">
         <section class="top">
           <div class="container">

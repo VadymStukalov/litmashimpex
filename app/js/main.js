@@ -91,3 +91,40 @@ function addClassBaseOnResize() {
 
 window.addEventListener("DOMContentLoaded", addClassBaseOnResize);
 // window.addEventListener("resize", addClassBaseOnResize);
+
+// drop-down menu
+
+const menuBtn = document.querySelector(".header-menu__btn");
+const menu = document.querySelector(".menu");
+const closeBtn = document.querySelector(".close-btn");
+
+const catDownMenuBtn = document.querySelector(".cat-down-img");
+const productList = document.querySelector(".products-list");
+const menuLinks = document.querySelectorAll(".menu__list-link");
+
+menuBtn.addEventListener("click", function () {
+  menu.classList.toggle("open");
+});
+
+catDownMenuBtn.addEventListener("click", function () {
+  productList.classList.toggle("products-list--open");
+
+  const isOpen = productList.classList.contains("products-list--open");
+  if (isOpen) {
+    catDownMenuBtn.style.transform = "rotate(180deg)";
+    catDownMenuBtn.style.padding = "5px 0 0 0";
+  } else {
+    catDownMenuBtn.style.transform = "rotate(0deg)";
+    catDownMenuBtn.style.padding = "0 0 3px 0";
+  }
+});
+
+// menuLinks.forEach(function (link) {
+//   link.addEventListener("click", function () {
+//     menu.classList.remove("open");
+//   });
+// });
+
+closeBtn.addEventListener("click", function () {
+  menu.classList.remove("open");
+});
