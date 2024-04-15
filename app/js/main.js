@@ -108,6 +108,7 @@ menuBtn.addEventListener("click", function () {
 
 catDownMenuBtn.addEventListener("click", function () {
   productList.classList.toggle("products-list--open");
+  console.log("hi");
 
   const isOpen = productList.classList.contains("products-list--open");
   if (isOpen) {
@@ -119,12 +120,43 @@ catDownMenuBtn.addEventListener("click", function () {
   }
 });
 
-// menuLinks.forEach(function (link) {
-//   link.addEventListener("click", function () {
-//     menu.classList.remove("open");
-//   });
-// });
+// Submenu resins
+
+const submenuResins = document.querySelector(".cat-down-img-submenu");
+
+submenuResins.addEventListener("click", function () {
+  console.log("hi");
+  const productsListResin = document.querySelector(".products-list__resin");
+  productsListResin.classList.toggle("products-list--open");
+  const isOpen = productsListResin.classList.contains("products-list--open");
+  if (isOpen) {
+    submenuResins.style.transform = "rotate(180deg)";
+    submenuResins.style.padding = "2px 0 0 0";
+  } else {
+    submenuResins.style.transform = "rotate(0deg)";
+    submenuResins.style.padding = "0 0 1px 0";
+  }
+});
+//
 
 closeBtn.addEventListener("click", function () {
   menu.classList.remove("open");
+});
+
+// Button to top
+
+window.addEventListener("scroll", function () {
+  const scrollTopButton = document.querySelector(".back-top-btn");
+  if (window.pageYOffset > 200) {
+    scrollTopButton.classList.add("show");
+  } else {
+    scrollTopButton.classList.remove("show");
+  }
+});
+
+document.querySelector(".back-top-btn").addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 });
