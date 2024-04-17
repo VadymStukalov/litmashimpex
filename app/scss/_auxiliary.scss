@@ -1,0 +1,23 @@
+.auxiliary {
+  padding: 72px 0 120px;
+  &__purpose-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__purpose-content {
+    max-width: 500px;
+    padding-right: 30px;
+  }
+  &__purpose + .auxiliary__purpose {
+    padding-top: 120px;
+  }
+  &__product-name {
+    @extend %title-font;
+    font-size: 26px;
+    padding-bottom: 26px;
+    color: #424242;
+  }
+  &__purpose-text {
+    line-height: 2;
+  }
+}
