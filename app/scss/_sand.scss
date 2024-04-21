@@ -1,0 +1,43 @@
+.shell-sand {
+  padding: 70px 0 120px;
+  &__purpose-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__purpose-content {
+    max-width: 568px;
+    padding-right: 50px;
+  }
+  &__purpose {
+    padding-bottom: 120px;
+  }
+  &__features-content {
+    padding: 120px 70px;
+    background-color: rgba($color: #d9d9d9, $alpha: 0.2);
+  }
+  &__purpose-text {
+    line-height: 2;
+  }
+  &__features-text {
+    line-height: 2;
+  }
+}
+
+.shell-sand_ .shell-sand .purpose-inner {
+}
+.shell-sand .shell-sand__purpose-title {
+}
+.article-title {
+}
+.shell-sand .purpose-text {
+}
+.shell-sand__purpose-picture {
+}
+.shell-sand__purpose-image {
+}
+.purpose-image {
+}
+.shell-sand .shell-sand__features-content {
+}
+.shell-sand__features-title {
+}

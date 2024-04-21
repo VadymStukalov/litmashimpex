@@ -48,37 +48,7 @@ function addClassBaseOnResize() {
       swiperSlide.appendChild(element);
       // element.classList.add("swiper-slide");
       sliderWrapper.appendChild(swiperSlide);
-      const benefitsSwiper = new Swiper(".benefits-swiper", {
-        slidesPerView: 1.5,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        breakpoints: {
-          520: {
-            slidesPerView: 1.5,
-          },
-          600: {
-            slidesPerView: 2.5,
-          },
-          800: {
-            navigation: false,
-          },
-        },
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
-      });
-
-      console.log("init Swiper 2");
+      // here was swiper
     });
   } else {
     benefitsList.classList.remove("benefits-swiper");
@@ -89,8 +59,47 @@ function addClassBaseOnResize() {
   console.log("init classes");
 }
 
-window.addEventListener("DOMContentLoaded", addClassBaseOnResize);
+// addClassBaseOnResize();
+
+window.addEventListener("DOMContentLoaded", addClassBaseOnResize());
 // window.addEventListener("resize", addClassBaseOnResize);
+
+const benefitsSwiper = new Swiper(".benefits-swiper", {
+  slidesPerView: 1.5,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  breakpoints: {
+    520: {
+      slidesPerView: 1.5,
+    },
+    600: {
+      slidesPerView: 2.5,
+    },
+    800: {
+      navigation: false,
+    },
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: ".swiper-scrollbar",
+  },
+});
+console.log("Swiper initialized");
+// benefitsSwiper.on("slideChange", function () {
+//   benefitsSwiper.pagination.update();
+// });
+
+console.log("init Swiper 2");
 
 // drop-down menu
 

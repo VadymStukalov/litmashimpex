@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   line-height: 1.67;
   color: $base-color;
+  position: relative;
 }
 
 .wrapper {
@@ -134,15 +135,20 @@ body {
   }
 }
 
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #555353;
+}
+
 .close-btn {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
   background-color: transparent;
   border: none;
   display: none;
+  padding: 0;
   &__line {
     background-color: red;
     height: 2px;
