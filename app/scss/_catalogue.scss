@@ -14,7 +14,8 @@
 .catalogue__list-item:nth-child(2) {
   padding-top: 0px;
 }
-.catalogue__list-item:last-child {
+.catalogue__list-item:last-child,
+.catalogue__list-item:nth-child(5) {
   padding-bottom: 0;
   border-bottom: none;
 }

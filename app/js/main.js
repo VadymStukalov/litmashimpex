@@ -34,7 +34,7 @@ function addClassBaseOnResize() {
   const screenWidth = window.innerWidth;
   const sliderWrapper = document.createElement("div");
 
-  if (screenWidth <= 800) {
+  if (screenWidth <= 800 && benefitsList) {
     benefitsList.classList.add("benefits-swiper");
     // создаем обертку
 
@@ -50,7 +50,7 @@ function addClassBaseOnResize() {
       sliderWrapper.appendChild(swiperSlide);
       // here was swiper
     });
-  } else {
+  } else if (benefitsList) {
     benefitsList.classList.remove("benefits-swiper");
     sliderWrapper.classList.remove("swiper-wrapper");
   }
