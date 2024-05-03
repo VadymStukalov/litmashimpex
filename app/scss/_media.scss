@@ -1,3 +1,30 @@
+@media (min-width: 1441px) {
+  .top {
+    padding: 120px 0 180px;
+    height: initial;
+
+    &__content-title {
+      font-size: 54px;
+    }
+    &__content-subtitle {
+      font-size: 36px;
+      margin-bottom: 80px;
+    }
+
+    &__content-picture {
+      max-width: 100%;
+      width: 689px;
+      margin-right: -60px;
+    }
+    &__content-img {
+      width: 100%;
+    }
+    &__arrow-down {
+      bottom: 64px;
+    }
+  }
+}
+
 @media (max-width: 1300px) {
   .company__about {
     padding-right: 80px;

@@ -1,7 +1,7 @@
 .top {
-  padding: 110px 0;
+  padding: 100px 0;
   position: relative;
-  height: calc(100vh - 132px);
+  height: calc(100vh - 100px);
   &__content {
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@
   &__content-title {
     font-size: 46px;
     text-transform: uppercase;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
     font-weight: 500;
   }
   &__content-subtitle {
@@ -66,6 +66,7 @@
 
   &__content-picture {
     max-width: 100%;
+    // width: 550px;
   }
   &__content-img {
     border-bottom-right-radius: 100px;
@@ -74,7 +75,7 @@
     display: block;
     position: absolute;
     left: 50%;
-    bottom: 10px;
+    bottom: 30px;
   }
 }
 
@@ -98,7 +99,7 @@
     url(../../images/turbine.jpeg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: cover;
 }
 // .company__image:before {
 //   // width: 100%;
