@@ -95,14 +95,6 @@
     bottom: auto;
   }
 
-  &__assortment-list {
-    .filters__assorment-item--ru:first-child:before {
-      // bottom: 81px;
-    }
-    .filters__assorment-item--ru:nth-child(3):before {
-      bottom: 46px;
-    }
-  }
   &__assortment-item-note {
     display: contents;
     font-weight: 600;
@@ -112,7 +104,11 @@
   }
 }
 
-.filter .filter__assortment-list {
-}
-.filter .filter .filter .filter__support-text {
+.filters__assortment-list {
+  .filters__assorment-item--ru:first-child::before {
+    bottom: 81px;
+  }
+  .filters__assorment-item--ru:nth-child(3)::before {
+    bottom: 46px;
+  }
 }
