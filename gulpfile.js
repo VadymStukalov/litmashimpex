@@ -78,7 +78,7 @@ function build() {
       "app/css/style.min.css",
       "app/fonts/**/*",
       "app/js/main.min.js",
-      "app/*.html",
+      "app/**/*.html",
     ],
     { base: "app" }
   ).pipe(dest("dist"));

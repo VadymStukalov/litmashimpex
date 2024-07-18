@@ -186,3 +186,52 @@ body {
 .show {
   display: flex;
 }
+.lang {
+  background-color: #c7c7c7;
+  border-radius: 10px;
+  width: 45px;
+  height: 21px;
+  padding: 0 3px;
+  position: relative;
+  display: inline-block;
+}
+.switcher {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  order: -1;
+  transition: all 0.2s ease-in-out;
+}
+
+.switched {
+  left: calc(100% - 21px);
+  top: 0px;
+}
+
+.lang-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.lang-item {
+  display: flex;
+  align-items: center;
+  a {
+    text-transform: uppercase;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+  }
+}
+.lang-link {
+  display: flex;
+  align-items: center;
+
+  line-height: 1.4;
+}

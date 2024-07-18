@@ -50,6 +50,7 @@
   }
   &__btn:hover {
     color: #fff;
+    border: 3px solid #e13d3d;
 
     path {
       transition: all 1.2s;
@@ -77,6 +78,20 @@
     left: 50%;
     bottom: 30px;
   }
+}
+
+.top__content-text--ru {
+  letter-spacing: 3px;
+  padding-right: 30px;
+  max-width: 565px;
+}
+.top__content-subtitle--ru {
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 400;
+  @extend %title-font;
 }
 
 // About section
@@ -184,6 +199,12 @@
   max-width: 220px;
   width: 100%;
   color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+.products-card__link:hover {
+  background-color: #e85555;
+  // color: #d8d8d8;
 }
 
 .swiper-button-prev {
@@ -236,12 +257,15 @@
     border-radius: 13px;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
-  &__list-item:last-child {
-    padding-top: 24px;
+
+  &__list-item:nth-child(6) {
+    padding-top: 41px;
   }
+
   &__list-item:nth-child(2) {
     padding-top: 34px;
   }
+
   &__item-img {
     margin: 0 auto;
     margin-bottom: 30px;
@@ -313,4 +337,5 @@
 }
 .contacts__map {
   box-shadow: 0px 0px 5px 4px rgba(224, 224, 224, 1);
+  line-height: 0;
 }

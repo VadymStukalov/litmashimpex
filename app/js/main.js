@@ -169,3 +169,52 @@ document.querySelector(".back-top-btn").addEventListener("click", function () {
     behavior: "smooth",
   });
 });
+
+// lang switcher
+
+const langLink = document.querySelectorAll(".lang-link");
+
+const switcher = document.querySelector(".switcher");
+
+function switchLanguage(event) {
+  event.preventDefault();
+
+  const langCode = this.getAttribute("data-lang");
+  const ruPattern = /\/ru\//;
+  const uaPattern = /\/ru\//;
+
+  let currentUrl = window.location.href;
+
+  if (langCode === "ru") {
+    switcher.classList.add("switched");
+    if (ruPattern.test(currentUrl)) {
+      console.log("its already there");
+    } else {
+      const urlParts = currentUrl.split("/");
+      console.log(urlParts);
+      urlParts.splice(3, 0, "ru");
+      console.log(urlParts);
+      currentUrl = urlParts.join("/");
+      console.log(currentUrl);
+
+      setTimeout(() => {
+        window.location.href = currentUrl;
+      }, 500);
+    }
+  }
+
+  if (langCode === "ua") {
+    switcher.classList.remove("switched");
+    if (ruPattern.test(currentUrl)) {
+      currentUrl = currentUrl.replace(ruPattern, "/");
+    }
+
+    setTimeout(() => {
+      window.location.href = currentUrl;
+    }, 500);
+  }
+}
+
+langLink.forEach((link) => {
+  link.addEventListener("click", switchLanguage);
+});

@@ -47,7 +47,20 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-S0C2Z6M0SB"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
+    gtag("config", "G-S0C2Z6M0SB");
+  </script>
   <body>
     <div class="wrapper">
       <header class="header">
@@ -74,6 +87,17 @@
                   >litmashimpex@gmail.com</a
                 >
               </span>
+              <div class="lang">
+                <div class="switcher"></div>
+                <ul class="lang-list">
+                  <li class="lang-item">
+                    <a class="lang-link" href="#" data-lang="ua">ua</a>
+                  </li>
+                  <li class="lang-item">
+                    <a class="lang-link" href="#" data-lang="ru">ru</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -499,7 +523,9 @@
             </nav>
             <ul class="footer__social">
               <li class="footer__social-item">
-                <a class="footer__social-link" href="#"
+                <a
+                  class="footer__social-link"
+                  href="https://www.facebook.com/profile.php?id=61562536547222"
                   ><img
                     class="footer__social-img"
                     src="images/facebook.svg"
@@ -507,7 +533,9 @@
                 /></a>
               </li>
               <li class="footer__social-item">
-                <a class="footer__social-link" href="#"
+                <a
+                  class="footer__social-link"
+                  href="https://www.youtube.com/channel/UCUzMpXBtnraoXw3za2JrjLQ"
                   ><img
                     class="footer__social-img"
                     src="images/youtube.svg"
@@ -515,7 +543,9 @@
                 /></a>
               </li>
               <li class="footer__social-item">
-                <a class="footer__social-link" href="#"
+                <a
+                  class="footer__social-link"
+                  href="https://www.instagram.com/litmashimpex/"
                   ><img
                     class="footer__social-img"
                     src="images/instagram.svg"

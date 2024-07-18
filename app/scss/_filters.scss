@@ -64,6 +64,9 @@
     bottom: 45px;
     left: 0;
   }
+  &__features-item--ru::before {
+    bottom: 81px;
+  }
   &__features-item-note {
     padding-top: 50px;
   }
@@ -90,6 +93,15 @@
   }
   &__assorment-item:nth-child(3):before {
     bottom: auto;
+  }
+
+  &__assortment-list {
+    .filters__assorment-item--ru:first-child:before {
+      bottom: 81px;
+    }
+    .filters__assorment-item--ru:nth-child(3):before {
+      bottom: 46px;
+    }
   }
   &__assortment-item-note {
     display: contents;
