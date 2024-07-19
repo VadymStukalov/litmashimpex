@@ -1,8 +1,7 @@
 @media (min-width: 1441px) {
   .top {
     padding: 120px 0 180px;
-    height: initial;
-
+    height: auto;
     &__content-title {
       font-size: 54px;
     }
@@ -1722,14 +1721,13 @@
   }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 400px) {
   .top__content-img {
     max-width: 500px;
   }
   .top {
     padding: 72px 0;
     position: relative;
-    height: calc(100vh - 100px);
   }
 
   .top__content-text {
