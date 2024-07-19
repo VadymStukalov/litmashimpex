@@ -1430,6 +1430,16 @@
     top: 5px;
   }
 }
+
+@media (max-width: 450px) {
+  .company__inner .company__image {
+    min-height: 640px;
+  }
+  .products {
+    padding: 61px 0 80px 0;
+  }
+}
+
 @media (max-width: 433px) {
   .exothermic__benefits-item:nth-child(4):before {
     top: 5px;
