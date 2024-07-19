@@ -24,6 +24,12 @@
   }
 }
 
+@media (max-width: 1400px) {
+  .top {
+    height: auto;
+  }
+}
+
 @media (max-width: 1300px) {
   .company__about {
     padding-right: 80px;
