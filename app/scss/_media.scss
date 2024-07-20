@@ -1427,7 +1427,7 @@
   .lang {
     position: absolute;
     right: 12px;
-    top: 5px;
+    top: 10px;
   }
 }
 
@@ -1439,6 +1439,9 @@
 @media (max-width: 429px) {
   .exothermic__benefits-item:nth-child(6):before {
     top: 5px;
+  }
+  .company__inner .company__image {
+    min-height: 586px;
   }
 }
 
@@ -1461,10 +1464,28 @@
   .products-list .products__list-item--submenu {
     width: 231px;
   }
+  .company__inner .company__image {
+    min-height: 605px;
+  }
 }
+@media (max-width: 410px) {
+  .company__inner .company__image {
+    min-height: 620px;
+  }
+  .products {
+    padding: 37px 0 80px 0;
+  }
+}
+
 @media (max-width: 389px) {
   .filters__benefits-item::before {
     top: 5px;
+  }
+  .top__content-img {
+    border-bottom-right-radius: 70px;
+  }
+  .top__content-picture::before {
+    border-bottom-right-radius: 70px;
   }
 }
 @media (max-width: 381px) {
@@ -1480,6 +1501,14 @@
   }
   .footer__copy {
     font-size: 12px;
+  }
+}
+@media (max-width: 376px) {
+  .company__inner .company__image {
+    min-height: 637px;
+  }
+  .products {
+    padding: 54px 0 80px 0;
   }
 }
 
@@ -1508,7 +1537,7 @@
     margin-bottom: 50px;
   }
   .products {
-    padding: 0 0 48px 0;
+    padding: 91px 0 48px 0;
   }
   .products-card__title {
     font-size: 13px;
@@ -1719,6 +1748,29 @@
   }
   .resins__item-wrapper {
     width: 128px;
+  }
+  .company__inner .company__image {
+    min-height: 645px;
+  }
+  .products {
+    padding: 80px 0 48px 0;
+  }
+  .lang {
+    transform: rotate(90deg);
+    right: 0px;
+    top: 26px;
+  }
+  .lang-item a {
+    transform: rotate(270deg);
+  }
+}
+
+@media (max-width: 350px) {
+  .company__inner .company__image {
+    min-height: 670px;
+  }
+  .products {
+    padding: 100px 0 48px 0;
   }
 }
 
