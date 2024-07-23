@@ -10,7 +10,7 @@
   &__purpose-inner {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 44px;
   }
   &__purpose-content {
     max-width: 500px;
@@ -19,7 +19,7 @@
   &__purpose-description {
   }
   &__purpose-description-main {
-    margin-bottom: 20px;
+    margin-bottom: 44px;
   }
   &__purpose-description-text {
   }
@@ -88,7 +88,7 @@
     background-size: auto;
     width: 20px;
     height: 17px;
-    bottom: 45px;
+    top: 6px;
     left: 0;
   }
   &__assorment-item:nth-child(3):before {
@@ -103,12 +103,11 @@
     padding-top: 120px;
   }
 }
+.filters__assorment-item--ru::before {
+  // top: 8px;
+}
 
-// .filters__assortment-list {
-//   .filters__assorment-item--ru:first-child::before {
-//     bottom: 81px;
-//   }
-//   .filters__assorment-item--ru:nth-child(3)::before {
-//     bottom: 46px;
-//   }
-// }
+.filters__purpose-description-main {
+  background-color: #e3e8dd;
+  padding: 40px;
+}
