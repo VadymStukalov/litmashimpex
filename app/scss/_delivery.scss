@@ -16,7 +16,7 @@
     padding-top: 35px;
   }
   &__auto-image {
-    // height: 400px;
+    max-width: 500px;
   }
 }
 
@@ -29,6 +29,7 @@
   justify-content: space-between;
 }
 .delivery__warehouse-image {
+  max-width: 500px;
 }
 .delivery__warehouse-content {
   max-width: 540px;

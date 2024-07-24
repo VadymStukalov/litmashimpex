@@ -16,11 +16,13 @@
   }
   &__info-phones {
   }
-  &__info-num {
+  &__info-num:hover {
+    color: $hover-color;
   }
   &__info-email {
   }
-  &__info-mail-link {
+  &__info-mail-link:hover {
+    color: $hover-color;
   }
 }
 
