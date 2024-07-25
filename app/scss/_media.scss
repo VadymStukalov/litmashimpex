@@ -750,12 +750,12 @@
     content: none;
   }
   .top__content-link {
-    // padding-right: 23px;
+    padding-right: 0;
   }
   .top__btn {
     max-width: 264px;
     text-align: center;
-    padding-right: 0;
+    padding: 15px 15px 15px 15px;
   }
 
   .top__btn svg {
