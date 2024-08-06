@@ -100,7 +100,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="../images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="../images/logo.png"
+                  alt="Логотип компании Литмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -131,7 +134,7 @@
                     <img
                       class="cat-down-img"
                       src="../images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрелка вниз для раскрытия каталога"
                     />
 
                     <ul class="products-list">
@@ -141,15 +144,15 @@
                         >
                       </li>
                       <li
-                        class="products-list__item products__list-item--submenu"
+                        class="products-list__item products__list-item--submenu products__list-item--submenu-ru"
                       >
                         <a class="products-list__link" href="resins.html"
                           >Смолы для формообразования</a
                         >
                         <img
-                          class="cat-down-img cat-down-img-submenu"
+                          class="cat-down-img cat-down-img-submenu cat-down-img-submenu--ru"
                           src="../images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрелка вниз для раскрытия каталога"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -238,7 +241,7 @@
           <img
             class="back-top-btn__img"
             src="../images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрелка вверх для возвращения в начало страницы"
           />
         </button>
       </header>
@@ -279,11 +282,27 @@
                 </p>
               </article>
               <div class="about-company__picture">
-                <img
-                  class="about-company__image"
-                  src="../images/company.jpg"
-                  alt="company"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ../images/company.webp    1x,
+                      ../images/company@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ../images/company.jpg    1x,
+                      ../images/company@2x.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="about-company__image"
+                    src="../images/company.jpg"
+                    alt="Офис компании"
+                  />
+                </picture>
               </div>
             </div>
           </div>
@@ -331,11 +350,27 @@
                   </p>
                 </article>
                 <div class="about-company__logistics-picture">
-                  <img
-                    class="about-company__logistics-image"
-                    src="../images/logistics.jpg"
-                    alt="logistics"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/logistics.webp    1x,
+                        ../images/logistics@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/logistics.jpg    1x,
+                        ../images/logistics@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="about-company__logistics-image"
+                      src="../images/logistics.jpg"
+                      alt="Фото изображения контейнеров"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
@@ -347,7 +382,7 @@
                 <li class="benefits__list-item">
                   <img
                     src="../images/quality.svg"
-                    alt=""
+                    alt="Иконка высокое качество"
                     class="benefits__item-img"
                   />
                   <h4 class="benefits__item-title">Высокое качество</h4>
@@ -358,7 +393,7 @@
                 <li class="benefits__list-item">
                   <img
                     src="../images/individual.svg"
-                    alt=""
+                    alt="Иконка индивидуальный подход"
                     class="benefits__item-img"
                   />
                   <h4 class="benefits__item-title">Индивидуальный подход</h4>
@@ -371,7 +406,7 @@
                 <li class="benefits__list-item">
                   <img
                     src="../images/save.svg"
-                    alt=""
+                    alt="Иконка экономичные решения"
                     class="benefits__item-img"
                   />
                   <h4 class="benefits__item-title">Экономические решения</h4>
@@ -383,7 +418,7 @@
                 <li class="benefits__list-item">
                   <img
                     src="../images/support.svg"
-                    alt=""
+                    alt="Иконка техническая поддержка"
                     class="benefits__item-img"
                   />
                   <h4 class="benefits__item-title">
@@ -398,7 +433,7 @@
                 <li class="benefits__list-item">
                   <img
                     src="../images/stable.svg"
-                    alt=""
+                    alt="Иконка стабильные поставки"
                     class="benefits__item-img"
                   />
                   <h4 class="benefits__item-title">
@@ -412,7 +447,7 @@
                 <li class="benefits__list-item">
                   <img
                     src="../images/warehouse.svg"
-                    alt=""
+                    alt="Иконка наличие на складе"
                     class="benefits__item-img"
                   />
                   <h4 class="benefits__item-title">Наличие на складе</h4>

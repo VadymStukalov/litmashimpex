@@ -105,7 +105,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="images/logo.png"
+                  alt="Логотип компанії Літмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -138,7 +141,7 @@
                     <img
                       class="cat-down-img"
                       src="images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрілка вниз для розкриття каталогу"
                     />
 
                     <ul class="products-list">
@@ -156,7 +159,7 @@
                         <img
                           class="cat-down-img cat-down-img-submenu"
                           src="images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрілка вниз для розкриття каталогу"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -245,7 +248,7 @@
           <img
             class="back-top-btn__img"
             src="images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрілка вгору, щоб повернутися до початку сторінки"
           />
         </button>
       </header>
@@ -290,11 +293,27 @@
                 </div>
               </div>
               <div class="top__content-picture">
-                <img
-                  class="top__content-img"
-                  src="images/top-picture.jpeg"
-                  alt="top picture"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      images/top-picture.webp    1x,
+                      images/top-picture@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      images/top-picture.jpg    1x,
+                      images/top-picture@2x.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="top__content-img"
+                    src="images/top-picture.jpg"
+                    alt="Зображення потоку металу з ковша при заливанні форми"
+                  />
+                </picture>
               </div>
             </div>
           </div>
@@ -302,18 +321,12 @@
             class="top__arrow-down animate__animated animate__fadeInDown animate__infinite"
             style="--animate-duration: 2s"
             src="images/arrow-down.svg"
-            alt="arrow-down"
+            alt="подвійна стрілка вниз"
           />
         </section>
         <section class="company">
           <div class="company__inner">
-            <div class="company__image">
-              <!-- <img
-                class="company__img"
-                src="images/turbine.jpeg"
-                alt="turbine"
-              /> -->
-            </div>
+            <div class="company__image"></div>
             <div class="company__about">
               <div class="company__wrapper">
                 <h3 class="company__about-title">Компанія “ЛІТМАШІМПЕКС”</h3>
@@ -342,11 +355,28 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                   <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-exo.jpeg"
-                      alt="exotermic materials"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          images/card-exo.webp    1x,
+                          images/card-exo@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          images/card-exo.jpg    1x,
+                          images/card-exo@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="products-card__img"
+                        src="images/card-exo.jpg"
+                        alt="екзотермічні вставки"
+                      />
+                    </picture>
+
                     <h4 class="products-card__title">Екзотермічні матеріали</h4>
                     <a class="products-card__link" href="exothermic.html"
                       >Детальніше</a
@@ -355,11 +385,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-resins2.jpg"
-                      alt="exotermic materials"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          images/card-resins.webp    1x,
+                          images/card-resins@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          images/card-resins.jpg    1x,
+                          images/card-resins@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="products-card__img"
+                        src="images/card-resins.jpg"
+                        alt="смоли для ХТС"
+                      />
+                    </picture>
+
                     <h4 class="products-card__title">
                       Смоли для формоутворення
                     </h4>
@@ -370,11 +417,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-filters.jpeg"
-                      alt="exotermic materials"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          images/card-filters.webp    1x,
+                          images/card-filters@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          images/card-filters.jpg    1x,
+                          images/card-filters@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="products-card__img"
+                        src="images/card-filters.jpg"
+                        alt="пінокерамічні фільтри"
+                      />
+                    </picture>
+
                     <h4 class="products-card__title">Пінокерамічні фільтри</h4>
                     <a class="products-card__link" href="filters.html"
                       >Детальніше</a
@@ -383,11 +447,28 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-coatings.jpeg"
-                      alt="exotermic materials"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          images/card-coatings.webp    1x,
+                          images/card-coatings@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          images/card-coatings.jpg    1x,
+                          images/card-coatings@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="products-card__img"
+                        src="images/card-coatings.jpg"
+                        alt="протипригарні покриття"
+                      />
+                    </picture>
+
                     <h4 class="products-card__title">Протипригарні покриття</h4>
                     <a class="products-card__link" href="coatings.html"
                       >Детальніше</a
@@ -397,11 +478,28 @@
 
                 <div class="swiper-slide">
                   <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/card-auxiliary.jpeg"
-                      alt="exotermic materials"
-                    />
+                    <picture>
+                      <source
+                        srcset="
+                          images/card-auxiliary.webp    1x,
+                          images/card-auxiliary@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          images/card-auxiliary.jpg    1x,
+                          images/card-auxiliary@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="products-card__img"
+                        src="images/card-auxiliary.jpg"
+                        alt="допоміжні матеріали"
+                      />
+                    </picture>
+
                     <h4 class="products-card__title">Допоміжні матеріали</h4>
                     <a class="products-card__link" href="auxiliary.html"
                       >Детальніше</a
@@ -410,11 +508,22 @@
                 </div>
                 <div class="swiper-slide">
                   <div class="products-card">
-                    <img
-                      class="products-card__img"
-                      src="images/sand.jpg"
-                      alt="exotermic materials"
-                    />
+                    <picture>
+                      <source
+                        srcset="images/sand.webp 1x, images/sand@2x.webp 2x"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="images/sand.jpg 1x, images/sand@2x.jpg 2x"
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="products-card__img"
+                        src="images/sand.jpg"
+                        alt="плакований пісок"
+                      />
+                    </picture>
+
                     <h4 class="products-card__title">Плакований пісок</h4>
                     <a class="products-card__link" href="sand.html"
                       >Детальніше</a
@@ -451,11 +560,21 @@
                 </p>
               </div>
               <div class="servise__picture">
-                <img
-                  class="sevice__img"
-                  src="images/service.jpg"
-                  alt="modeling"
-                />
+                <picture>
+                  <source
+                    srcset="images/service.webp 1x, images/service@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="images/service.jpg 1x, images/service@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="sevice__img"
+                    src="images/service.jpg"
+                    alt="3д-моделювання ливарних процесів"
+                  />
+                </picture>
               </div>
             </div>
           </div>
@@ -469,7 +588,7 @@
               <li class="benefits__list-item">
                 <img
                   src="images/quality.svg"
-                  alt=""
+                  alt="Висока якість значок"
                   class="benefits__item-img"
                 />
                 <h4 class="benefits__item-title">Висока якість</h4>
@@ -480,7 +599,7 @@
               <li class="benefits__list-item">
                 <img
                   src="images/individual.svg"
-                  alt=""
+                  alt="Індивідуальний підхід значок"
                   class="benefits__item-img"
                 />
                 <h4 class="benefits__item-title">Індивідуальний підхід</h4>
@@ -490,7 +609,11 @@
                 </p>
               </li>
               <li class="benefits__list-item">
-                <img src="images/save.svg" alt="" class="benefits__item-img" />
+                <img
+                  src="images/save.svg"
+                  alt="Економічні рішення значок"
+                  class="benefits__item-img"
+                />
                 <h4 class="benefits__item-title">Економічні рішення</h4>
                 <p class="benefits__item-text">
                   Наша співпраця допоможе вам оптимізувати витрати та підвищити
@@ -500,7 +623,7 @@
               <li class="benefits__list-item">
                 <img
                   src="images/support.svg"
-                  alt=""
+                  alt="Іконка технічна підтримка"
                   class="benefits__item-img"
                 />
                 <h4 class="benefits__item-title">Технічний супровід</h4>
@@ -512,7 +635,7 @@
               <li class="benefits__list-item">
                 <img
                   src="images/stable.svg"
-                  alt=""
+                  alt="Стабільні поставки значок"
                   class="benefits__item-img"
                 />
                 <h4 class="benefits__item-title">Стабільність та надійність</h4>
@@ -524,7 +647,7 @@
               <li class="benefits__list-item">
                 <img
                   src="images/warehouse.svg"
-                  alt=""
+                  alt="Значок наявність на складі"
                   class="benefits__item-img"
                 />
                 <h4 class="benefits__item-title">Наявність на складі</h4>
@@ -573,6 +696,18 @@
                     <span>факс:</span>
                     <a class="contacts__menu-link" href="tel:+380577591877">
                       +380 57 759-18-77</a
+                    >
+                  </li>
+                  <li class="contacts__menu-item">
+                    <span>моб:</span>
+                    <a class="contacts__menu-link" href="tel:+380506519760">
+                      +380 50 651-97-60
+                    </a>
+                  </li>
+                  <li class="contacts__menu-item">
+                    <span>моб:</span>
+                    <a class="contacts__menu-link" href="tel:+380504002208">
+                      +380 50 400-22-08</a
                     >
                   </li>
                   <li class="contacts__menu-item">
@@ -632,8 +767,8 @@
               <div class="contacts__map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d723.6789305660209!2d36.33080649684848!3d49.95493256582629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0KLQn9CaINCb0ZbRgtC80LDRiNGW0LzQv9C10LrRgQ!5e0!3m2!1sru!2sua!4v1713386145415!5m2!1sru!2sua"
-                  width="600"
-                  height="450"
+                  width="700"
+                  height="500"
                   style="border: 0"
                   allowfullscreen=""
                   loading="lazy"

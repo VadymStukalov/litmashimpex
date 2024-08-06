@@ -6,8 +6,11 @@ const browserSync = require("browser-sync").create();
 const uglify = require("gulp-uglify-es").default;
 const autoprefixer = require("gulp-autoprefixer");
 const imagemin = require("gulp-imagemin");
+const webp = require("gulp-webp");
 const del = require("del");
 const include = require("gulp-include");
+const webpHTML = require("gulp-webp-html");
+// const webpCss = require("gulp-webp-css");
 
 function browsersync() {
   browserSync.init({
@@ -34,6 +37,9 @@ function pages() {
 
 function images() {
   return src("app/images/**/*")
+    .pipe(webp({ quality: 85 }))
+    .pipe(dest("app/images"))
+    .pipe(src("app/images/**/*"))
     .pipe(
       imagemin([
         imagemin.gifsicle({ interlaced: true }),

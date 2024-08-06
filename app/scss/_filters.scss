@@ -16,13 +16,11 @@
     max-width: 500px;
     padding-right: 30px;
   }
-  &__purpose-description {
-  }
+
   &__purpose-description-main {
     margin-bottom: 44px;
   }
-  &__purpose-description-text {
-  }
+
   &__benefits {
     padding: 120px 0;
     background-color: rgba($color: #acd578, $alpha: 0.1);
@@ -102,9 +100,6 @@
   &__support {
     padding-top: 120px;
   }
-}
-.filters__assorment-item--ru::before {
-  // top: 8px;
 }
 
 .filters__purpose-description-main {

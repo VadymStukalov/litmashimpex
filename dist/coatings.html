@@ -103,7 +103,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="images/logo.png"
+                  alt="Логотип компанії Літмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -134,7 +137,7 @@
                     <img
                       class="cat-down-img"
                       src="images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрілка вниз для розкриття каталогу"
                     />
 
                     <ul class="products-list">
@@ -152,7 +155,7 @@
                         <img
                           class="cat-down-img cat-down-img-submenu"
                           src="images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрілка вниз для розкриття каталогу"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -241,7 +244,7 @@
           <img
             class="back-top-btn__img"
             src="images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрілка вгору, щоб повернутися до початку сторінки"
           />
         </button>
       </header>
@@ -274,20 +277,36 @@
                     Призначення
                   </h5>
                   <p class="coatings__purpose-text purpose-text">
-                    Протипригарні покриття серії "FQ", "FQT", "FQH", "EXO
-                    COATING (ZBBE, ABBE, BBE)" призначені для захисту ливарної
-                    форми від впливу розплавленого металу, перешкоджають
-                    виникненню різних типів пригару, а також запобігають
-                    виникненню інших дефектів на поверхні лиття, таких як
-                    ужиміни, просічки, засмічення і т. д.
+                    Протипригарні покриття серії
+                    <span class="accent"
+                      >FQ, FQT, FQH, EXO COATING (ZBBE, ABBE, BBE)</span
+                    >
+                    призначені для захисту ливарної форми від впливу
+                    розплавленого металу, перешкоджають виникненню різних типів
+                    пригару, а також запобігають виникненню інших дефектів на
+                    поверхні лиття, таких як ужиміни, просічки, засмічення і т.
+                    д.
                   </p>
                 </article>
                 <div class="coatings__purpose-picture">
-                  <img
-                    class="coatings__purpose-image purpose-image"
-                    src="images/core.jpg"
-                    alt="coating core"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        images/coatings.webp    1x,
+                        images/coatings@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="images/coatings.jpg 1x, images/coatings@2x.jpg 2x"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="coatings__purpose-image purpose-image"
+                      src="images/coatings.jpg"
+                      alt="Зображення стрижня покритим протипригарним покриттям і спиртом, що горить"
+                    />
+                  </picture>
                 </div>
               </div>
             </section>
@@ -359,7 +378,7 @@
                   <img
                     class="properties__image purpose-image"
                     src="images/coating-form.jpg"
-                    alt="coated form"
+                    alt="Зображення форми пофарбованої протипригарним покриттям та пальник із полум'ям"
                   />
                 </div>
               </div>

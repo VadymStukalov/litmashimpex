@@ -103,7 +103,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="../images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="../images/logo.png"
+                  alt="Логотип компании Литмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -134,7 +137,7 @@
                     <img
                       class="cat-down-img"
                       src="../images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрелка вниз для раскрытия каталога"
                     />
 
                     <ul class="products-list">
@@ -144,15 +147,15 @@
                         >
                       </li>
                       <li
-                        class="products-list__item products__list-item--submenu"
+                        class="products-list__item products__list-item--submenu products__list-item--submenu-ru"
                       >
                         <a class="products-list__link" href="resins.html"
                           >Смолы для формообразования</a
                         >
                         <img
-                          class="cat-down-img cat-down-img-submenu"
+                          class="cat-down-img cat-down-img-submenu cat-down-img-submenu--ru"
                           src="../images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрелка вниз для раскрытия каталога"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -241,7 +244,7 @@
           <img
             class="back-top-btn__img"
             src="../images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрелка вверх для возвращения в начало страницы"
           />
         </button>
       </header>
@@ -275,20 +278,39 @@
                     Назначение
                   </h5>
                   <p class="coatings__purpose-text purpose-text">
-                    Противопригарные покрытия серии "FQ", "FQT", "FQH", "EXO
-                    COATING (ZBBE, ABBE, BBE)" предназначены для защиты литейной
-                    формы от воздействия расплавленного металла, препятствуют
-                    возникновению различных типов пригара, а также предотвращают
-                    возникновение других дефектов на поверхности литья таких как
-                    ужимины, просечки, засоры и т.д.
+                    Противопригарные покрытия серии
+                    <span class="accent"
+                      >FQ, FQT, FQH, EXO COATING (ZBBE, ABBE, BBE)</span
+                    >
+                    предназначены для защиты литейной формы от воздействия
+                    расплавленного металла, препятствуют возникновению различных
+                    типов пригара, а также предотвращают возникновение других
+                    дефектов на поверхности литья таких как ужимины, просечки,
+                    засоры и т.д.
                   </p>
                 </article>
                 <div class="coatings__purpose-picture">
-                  <img
-                    class="coatings__purpose-image purpose-image"
-                    src=" ../images/core.jpg"
-                    alt="coating core"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/coatings.webp    1x,
+                        ../images/coatings@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/coatings.jpg    1x,
+                        ../images/coatings@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="coatings__purpose-image purpose-image"
+                      src="../images/coatings.jpg"
+                      alt="Изображение стержня покрытым противопригарным покрытиям и горящим спиртом"
+                    />
+                  </picture>
                 </div>
               </div>
             </section>
@@ -360,7 +382,7 @@
                   <img
                     class="properties__image purpose-image"
                     src="../images/coating-form.jpg"
-                    alt="coated form"
+                    alt="Изображение формы покрашенной протипригарным покрытием и горелка с пламенем"
                   />
                 </div>
               </div>

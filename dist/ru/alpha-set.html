@@ -106,7 +106,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="../images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="../images/logo.png"
+                  alt="Логотип компании Литмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -137,7 +140,7 @@
                     <img
                       class="cat-down-img"
                       src="../images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрелка вниз для раскрытия каталога"
                     />
 
                     <ul class="products-list">
@@ -147,15 +150,15 @@
                         >
                       </li>
                       <li
-                        class="products-list__item products__list-item--submenu"
+                        class="products-list__item products__list-item--submenu products__list-item--submenu-ru"
                       >
                         <a class="products-list__link" href="resins.html"
                           >Смолы для формообразования</a
                         >
                         <img
-                          class="cat-down-img cat-down-img-submenu"
+                          class="cat-down-img cat-down-img-submenu cat-down-img-submenu--ru"
                           src="../images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрелка вниз для раскрытия каталога"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -244,7 +247,7 @@
           <img
             class="back-top-btn__img"
             src="../images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрелка вверх для возвращения в начало страницы"
           />
         </button>
       </header>
@@ -283,8 +286,9 @@
                 </h5>
                 <p class="resin-process__content-text">
                   Alpha-set – двухкомпонетный процесс, в котором используется
-                  щелочная фенольная смола серии "JF" ("APR") и сложноэфирный
-                  отвердитель серии "HQG". <br />
+                  щелочная фенольная смола серии
+                  <span class="accent">JF (APR)</span> и сложноэфирный
+                  отвердитель серии <span class="accent">HQG</span>. <br />
                   Применяется для опочной и безопочной формовки, изготовления
                   стержней в стальном и чугунном литье, а также в литье цветных
                   сплавов. <br />
@@ -305,25 +309,73 @@
             <div class="container">
               <div class="resin-process__gallery-inner">
                 <div class="resin-process__gallery-wrapper">
-                  <img
-                    class="resin-process__gallery-image"
-                    src="../images/resin-1.jpg"
-                    alt="mould"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/resin-1.webp    1x,
+                        ../images/resin-1@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/resin-1.jpg    1x,
+                        ../images/resin-1@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="resin-process__gallery-image"
+                      src="../images/resin-1.jpg"
+                      alt="Изображение формы отформованной по технологии ХТС"
+                    />
+                  </picture>
                 </div>
                 <div class="resin-process__gallery-wrapper">
-                  <img
-                    class="resin-process__gallery-image"
-                    src="../images/resin-2.jpg"
-                    alt="mould"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/resin-2.webp    1x,
+                        ../images/resin-2@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/resin-2.jpg    1x,
+                        ../images/resin-2@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="resin-process__gallery-image"
+                      src="../images/resin-2.jpg"
+                      alt="Изображение формы отформованной по технологии ХТС"
+                    />
+                  </picture>
                 </div>
                 <div class="resin-process__gallery-wrapper">
-                  <img
-                    class="resin-process__gallery-image"
-                    src="../images/resin-3.jpg"
-                    alt="mould"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/resin-3.webp    1x,
+                        ../images/resin-3@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/resin-3.jpg    1x,
+                        ../images/resin-3@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="resin-process__gallery-image"
+                      src="../images/resin-3.jpg"
+                      alt="Изображение формы отформованной по технологии ХТС"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>

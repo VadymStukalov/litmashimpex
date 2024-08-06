@@ -106,7 +106,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="../images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="../images/logo.png"
+                  alt="Логотип компании Литмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -137,7 +140,7 @@
                     <img
                       class="cat-down-img"
                       src="../images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрелка вниз для раскрытия каталога"
                     />
 
                     <ul class="products-list">
@@ -147,15 +150,15 @@
                         >
                       </li>
                       <li
-                        class="products-list__item products__list-item--submenu"
+                        class="products-list__item products__list-item--submenu products__list-item--submenu-ru"
                       >
                         <a class="products-list__link" href="resins.html"
                           >Смолы для формообразования</a
                         >
                         <img
-                          class="cat-down-img cat-down-img-submenu"
+                          class="cat-down-img cat-down-img-submenu cat-down-img-submenu--ru"
                           src="../images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрелка вниз для раскрытия каталога"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -244,7 +247,7 @@
           <img
             class="back-top-btn__img"
             src="../images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрелка вверх для возвращения в начало страницы"
           />
         </button>
       </header>
@@ -282,8 +285,9 @@
                     Назначение
                   </h5>
                   <p class="auxiliary__purpose-text purpose-text">
-                    Коагулятор шлака KOAGULATOR собирает и связывает шлак в
-                    прочную пластичную корку, которая легко удаляется с
+                    Коагулятор шлака
+                    <span class="accent">KOAGULATOR</span> собирает и связывает
+                    шлак в прочную пластичную корку, которая легко удаляется с
                     поверхности расплава чугуна или стали. Альтернативно его
                     можно оставить на поверхности расплава, а металл слить
                     из-под него. Корка будет оставаться на месте во время слива
@@ -292,11 +296,27 @@
                   </p>
                 </article>
                 <div class="auxiliary__purpose-picture">
-                  <img
-                    class="auxiliary__purpose-image purpose-image"
-                    src="../images/coagulator.jpg"
-                    alt="coagulator"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/coagulator.webp    1x,
+                        ../images/coagulator@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/coagulator.jpg    1x,
+                        ../images/coagulator@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="auxiliary__purpose-image purpose-image"
+                      src="../images/coagulator.jpg"
+                      alt="Изображение мешков с коагулятором"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
@@ -313,18 +333,35 @@
                     Назначение
                   </h5>
                   <p class="auxiliary__purpose-text purpose-text">
-                    Клей KLEBEKS – это самотвердеющие холодные клеи,
-                    разработанные для использования в литейном производстве,
-                    которые предназначены для склеивания стержней и формованных
-                    частей, выполненных из песчано-смоляных смесей.
+                    Клей <span class="accent">KLEBEKS</span> – это
+                    самотвердеющие холодные клеи, разработанные для
+                    использования в литейном производстве, которые предназначены
+                    для склеивания стержней и формованных частей, выполненных из
+                    песчано-смоляных смесей.
                   </p>
                 </article>
                 <div class="auxiliary__purpose-picture">
-                  <img
-                    class="auxiliary__purpose-image purpose-image"
-                    src="../images/klebeks.jpg"
-                    alt="glue klebeks"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/klebeks.webp    1x,
+                        ../images/klebeks@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/klebeks.jpg    1x,
+                        ../images/klebeks@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="auxiliary__purpose-image purpose-image"
+                      src="../images/klebeks.jpg"
+                      alt="Изображение коробки с тубами клея Klebeks"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
@@ -340,18 +377,35 @@
                     Назначение
                   </h5>
                   <p class="auxiliary__purpose-text purpose-text">
-                    Разделительные составы серии RA используются для нанесения
-                    на модельную оснастку и обеспечивают легкое и многократное
+                    Разделительные составы серии
+                    <span class="accent">RA</span> используются для нанесения на
+                    модельную оснастку и обеспечивают легкое и многократное
                     снятие форм и стержней, предотвращая подрывы и нарушения
                     целостности.
                   </p>
                 </article>
                 <div class="auxiliary__purpose-picture">
-                  <img
-                    class="auxiliary__purpose-image purpose-image"
-                    src="../images/release-agent.jpg"
-                    alt="release-agent"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/release-agent.webp    1x,
+                        ../images/release-agent@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/release-agent.jpg    1x,
+                        ../images/release-agent@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="auxiliary__purpose-image purpose-image"
+                      src="../images/release-agent.jpg"
+                      alt="Изображение банки с разделительным составом RA-02"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
@@ -367,7 +421,8 @@
                     Назначение
                   </h5>
                   <p class="auxiliary__purpose-text purpose-text">
-                    Разделительные составы TEXOL, TERSILON применяются при
+                    Разделительные составы
+                    <span class="accent">TEXOL, TERSILON</span> применяются при
                     изготовлении форм из песчано-глинистых смесей (ПГС) на
                     автоматических линиях (DISAMATIC, Kunkel-Wagner, HEINRICH
                     WAGNER SINTO) и при ручной формовке. Разделительные составы
@@ -378,11 +433,27 @@
                   </p>
                 </article>
                 <div class="auxiliary__purpose-picture">
-                  <img
-                    class="auxiliary__purpose-image purpose-image"
-                    src="../images/release-green-sand.jpg"
-                    alt="exothermic powder"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/release-green-sand.webp    1x,
+                        ../images/release-green-sand@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/release-green-sand.jpg    1x,
+                        ../images/release-green-sand@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="auxiliary__purpose-image purpose-image"
+                      src="../images/release-green-sand.jpeg"
+                      alt="Изображение бочек с разделительным составом TERSILON, TEXOL"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>
@@ -408,11 +479,27 @@
                   </p>
                 </article>
                 <div class="auxiliary__purpose-picture">
-                  <img
-                    class="auxiliary__purpose-image purpose-image"
-                    src="../images/exo-cover.jpg"
-                    alt="exothermic powder"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/exo-cover2.webp    1x,
+                        ../images/exo-cover2@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/exo-cover2.jpg    1x,
+                        ../images/exo-cover2@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="auxiliary__purpose-image purpose-image"
+                      src="../images/exo-cover2.jpg"
+                      alt="Изображение экзотермической смеси"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>

@@ -22,7 +22,7 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-console.log("init Swiper 1");
+// console.log("init Swiper 1");
 $(function () {});
 
 // Add class Swiper to benefits section
@@ -55,8 +55,8 @@ function addClassBaseOnResize() {
     sliderWrapper.classList.remove("swiper-wrapper");
   }
 
-  console.log(screenWidth);
-  console.log("init classes");
+  // console.log(screenWidth);
+  // console.log("init classes");
 }
 
 // addClassBaseOnResize();
@@ -100,7 +100,7 @@ console.log("Swiper initialized");
 //   benefitsSwiper.pagination.update();
 // });
 
-console.log("init Swiper 2");
+// console.log("init Swiper 2");
 
 // drop-down menu
 
@@ -118,7 +118,7 @@ menuBtn.addEventListener("click", function () {
 
 catDownMenuBtn.addEventListener("click", function () {
   productList.classList.toggle("products-list--open");
-  console.log("hi");
+  // console.log("hi");
 
   const isOpen = productList.classList.contains("products-list--open");
   if (isOpen) {
@@ -135,7 +135,7 @@ catDownMenuBtn.addEventListener("click", function () {
 const submenuResins = document.querySelector(".cat-down-img-submenu");
 
 submenuResins.addEventListener("click", function () {
-  console.log("hi");
+  // console.log("hi");
   const productsListResin = document.querySelector(".products-list__resin");
   productsListResin.classList.toggle("products-list--open");
   const isOpen = productsListResin.classList.contains("products-list--open");
@@ -189,14 +189,14 @@ function switchLanguage(event) {
   if (langCode === "ru") {
     switcher.classList.add("switched");
     if (ruPattern.test(currentUrl)) {
-      console.log("its already there");
+      // console.log("its already there");
     } else {
       const urlParts = currentUrl.split("/");
-      console.log(urlParts);
+      // console.log(urlParts);
       urlParts.splice(3, 0, "ru");
-      console.log(urlParts);
+      // console.log(urlParts);
       currentUrl = urlParts.join("/");
-      console.log(currentUrl);
+      // console.log(currentUrl);
 
       setTimeout(() => {
         window.location.href = currentUrl;

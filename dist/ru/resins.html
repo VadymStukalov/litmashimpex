@@ -107,7 +107,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="../images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="../images/logo.png"
+                  alt="Логотип компании Литмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -138,7 +141,7 @@
                     <img
                       class="cat-down-img"
                       src="../images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрелка вниз для раскрытия каталога"
                     />
 
                     <ul class="products-list">
@@ -148,15 +151,15 @@
                         >
                       </li>
                       <li
-                        class="products-list__item products__list-item--submenu"
+                        class="products-list__item products__list-item--submenu products__list-item--submenu-ru"
                       >
                         <a class="products-list__link" href="resins.html"
                           >Смолы для формообразования</a
                         >
                         <img
-                          class="cat-down-img cat-down-img-submenu"
+                          class="cat-down-img cat-down-img-submenu cat-down-img-submenu--ru"
                           src="../images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрелка вниз для раскрытия каталога"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -245,7 +248,7 @@
           <img
             class="back-top-btn__img"
             src="../images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрелка вверх для возвращения в начало страницы"
           />
         </button>
       </header>
@@ -288,11 +291,27 @@
                 </p>
               </article>
               <div class="resins__purpose-picture">
-                <img
-                  class="resins__purpose-image purpose-image"
-                  src="../images/resins.jpg"
-                  alt="resin"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ../images/resins-sq.webp    1x,
+                      ../images/resins-sq@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ../images/resins-sq.jpg    1x,
+                      ../images/resins-sq@2x.jpg 2x
+                    "
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="resins__purpose-image purpose-image"
+                    src="../images/resins-sq.jpg"
+                    alt="Изобрадение связующие ХТС"
+                  />
+                </picture>
               </div>
             </section>
             <section class="assortment">

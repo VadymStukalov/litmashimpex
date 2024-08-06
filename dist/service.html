@@ -105,7 +105,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="images/logo.png"
+                  alt="Логотип компанії Літмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -134,7 +137,7 @@
                     <img
                       class="cat-down-img"
                       src="images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрілка вниз для розкриття каталогу"
                     />
 
                     <ul class="products-list">
@@ -152,7 +155,7 @@
                         <img
                           class="cat-down-img cat-down-img-submenu"
                           src="images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрілка вниз для розкриття каталогу"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -245,7 +248,7 @@
           <img
             class="back-top-btn__img"
             src="images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрілка вгору, щоб повернутися до початку сторінки"
           />
         </button>
       </header>
@@ -285,11 +288,24 @@
                   </p>
                 </article>
                 <div class="service__intro-picture">
-                  <img
-                    class="service__intro-image"
-                    src="images/3d-model.jpg"
-                    alt="3d model"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        images/3d-model.webp    1x,
+                        images/3d-model@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="images/3d-model.jpg 1x, images/3d-model@2x.jpg 2x"
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="service__intro-image"
+                      src="images/3d-model.jpg"
+                      alt="Зображення 3-д моделі"
+                    />
+                  </picture>
                 </div>
               </div>
             </div>

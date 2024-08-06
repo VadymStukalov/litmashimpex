@@ -2,9 +2,6 @@
   padding: 70px 0 120px;
 }
 
-.section-title {
-  //   margin-bottom: 120px;
-}
 .catalogue__list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -42,8 +39,7 @@
   display: block;
   transition: all 0.3s;
 }
-.catalogue__img-link {
-}
+
 .catalogue__title-link {
   @extend %title-font;
   font-size: 24px;

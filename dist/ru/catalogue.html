@@ -103,7 +103,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="../images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="../images/logo.png"
+                  alt="Логотип компании Литмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -134,7 +137,7 @@
                     <img
                       class="cat-down-img"
                       src="../images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрелка вниз для раскрытия каталога"
                     />
 
                     <ul class="products-list">
@@ -144,15 +147,15 @@
                         >
                       </li>
                       <li
-                        class="products-list__item products__list-item--submenu"
+                        class="products-list__item products__list-item--submenu products__list-item--submenu-ru"
                       >
                         <a class="products-list__link" href="resins.html"
                           >Смолы для формообразования</a
                         >
                         <img
-                          class="cat-down-img cat-down-img-submenu"
+                          class="cat-down-img cat-down-img-submenu cat-down-img-submenu--ru"
                           src="../images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрелка вниз для раскрытия каталога"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -241,7 +244,7 @@
           <img
             class="back-top-btn__img"
             src="../images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрелка вверх для возвращения в начало страницы"
           />
         </button>
       </header>
@@ -266,10 +269,26 @@
               <li class="catalogue__list-item">
                 <article class="catalogue__list-card">
                   <a class="catalogue__card-img" href="exothermic.html"
-                    ><img
-                      class="catalogue__img-link"
-                      src="../images/card-exo.jpeg"
-                      alt="product exothermic sleeves" /></a
+                    ><picture>
+                      <source
+                        srcset="
+                          ../images/card-exo.webp    1x,
+                          ../images/card-exo@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          ../images/card-exo.jpg    1x,
+                          ../images/card-exo@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="catalogue__img-link"
+                        src="../images/card-exo.jpg"
+                        alt="Изображение экзотермичческие вставки"
+                      /> </picture></a
                   ><a class="catalogue__title-link" href="exothermic.html"
                     >Экзотермические материалы</a
                   >
@@ -277,11 +296,27 @@
               </li>
               <li class="catalogue__list-item">
                 <article class="catalogue__list-card">
-                  <a class="catalogue__card-img" href="resins.html"
-                    ><img
-                      class="catalogue__img-link"
-                      src="../images/card-resins2.jpg"
-                      alt="product resins" /></a
+                  <a class="catalogue__card-img" href="resins.html">
+                    <picture>
+                      <source
+                        srcset="
+                          ../images/card-resins.webp    1x,
+                          ../images/card-resins@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          ../images/card-resins.jpg    1x,
+                          ../images/card-resins@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="catalogue__img-link"
+                        src="../images/card-resins.jpg"
+                        alt="Изображение смолы ХТС"
+                      /> </picture></a
                   ><a class="catalogue__title-link" href="resins.html"
                     >Смолы для формообразования</a
                   >
@@ -290,10 +325,26 @@
               <li class="catalogue__list-item">
                 <article class="catalogue__list-card">
                   <a class="catalogue__card-img" href="filters.html"
-                    ><img
-                      class="catalogue__img-link"
-                      src="../images/card-filters.jpeg"
-                      alt="product filters" /></a
+                    ><picture>
+                      <source
+                        srcset="
+                          ../images/card-filters.webp    1x,
+                          ../images/card-filters@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          ../images/card-filters.jpg    1x,
+                          ../images/card-filters@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="catalogue__img-link"
+                        src="../images/card-filters.jpg"
+                        alt="Изображение пенокерамические фильтры"
+                      /> </picture></a
                   ><a class="catalogue__title-link" href="filters.html"
                     >Пенокерамические фильтры</a
                   >
@@ -301,11 +352,27 @@
               </li>
               <li class="catalogue__list-item">
                 <article class="catalogue__list-card">
-                  <a class="catalogue__card-img" href="coatings.html"
-                    ><img
-                      class="catalogue__img-link"
-                      src="../images/card-coatings.jpeg"
-                      alt="product coatings" /></a
+                  <a class="catalogue__card-img" href="coatings.html">
+                    <picture>
+                      <source
+                        srcset="
+                          ../images/card-coatings.webp    1x,
+                          ../images/card-coatings@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          ../images/card-coatings.jpg    1x,
+                          ../images/card-coatings@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="catalogue__img-link"
+                        src="../images/card-coatings.jpg"
+                        alt="Изображение противопригарные покрытия"
+                      /> </picture></a
                   ><a class="catalogue__title-link" href="coatings.html"
                     >Противопригарные покрытия</a
                   >
@@ -314,10 +381,26 @@
               <li class="catalogue__list-item">
                 <article class="catalogue__list-card">
                   <a class="catalogue__card-img" href="auxiliary.html"
-                    ><img
-                      class="catalogue__img-link"
-                      src="../images/card-auxiliary.jpeg"
-                      alt="product auxiliary" /></a
+                    ><picture>
+                      <source
+                        srcset="
+                          ../images/card-auxiliary.webp    1x,
+                          ../images/card-auxiliary@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="
+                          ../images/card-auxiliary.jpg    1x,
+                          ../images/card-auxiliary@2x.jpg 2x
+                        "
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="catalogue__img-link"
+                        src="../images/card-auxiliary.jpg"
+                        alt="Изображение вспомагательные материалы"
+                      /> </picture></a
                   ><a class="catalogue__title-link" href="auxiliary.html"
                     >Вспомагательные материалы</a
                   >
@@ -326,10 +409,23 @@
               <li class="catalogue__list-item">
                 <article class="catalogue__list-card">
                   <a class="catalogue__card-img" href="sand.html"
-                    ><img
-                      class="catalogue__img-link"
-                      src="../images/sand.jpg"
-                      alt="product shell sand" /></a
+                    ><picture>
+                      <source
+                        srcset="
+                          ../images/sand.webp    1x,
+                          ../images/sand@2x.webp 2x
+                        "
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="../images/sand.jpg 1x, ../images/sand@2x.jpg 2x"
+                        type="image/jpeg"
+                      />
+                      <img
+                        class="catalogue__img-link"
+                        src="../images/sand.jpg"
+                        alt="Изображение плакированый песок"
+                      /> </picture></a
                   ><a class="catalogue__title-link" href="sand.html"
                     >Плакированный песок</a
                   >

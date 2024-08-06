@@ -15,9 +15,6 @@
   &__auto-content-text:last-child {
     padding-top: 35px;
   }
-  &__auto-image {
-    max-width: 500px;
-  }
 }
 
 .delivery__warehouse {
@@ -28,9 +25,7 @@
   display: flex;
   justify-content: space-between;
 }
-.delivery__warehouse-image {
-  max-width: 500px;
-}
+
 .delivery__warehouse-content {
   max-width: 540px;
   padding-left: 30px;

@@ -103,7 +103,10 @@
           <div class="container">
             <div class="header-menu__inner">
               <a class="logo" href="index.html">
-                <img class="logo-img" src="../images/logo.png" alt="logo"
+                <img
+                  class="logo-img"
+                  src="../images/logo.png"
+                  alt="Логотип компании Литмашимпекс"
               /></a>
               <button class="header-menu__btn">
                 <span class="menu__btn-line"></span>
@@ -132,7 +135,7 @@
                     <img
                       class="cat-down-img"
                       src="../images/cat-down.svg"
-                      alt="catalog-down"
+                      alt="Стрелка вниз для раскрытия каталога"
                     />
 
                     <ul class="products-list">
@@ -142,15 +145,15 @@
                         >
                       </li>
                       <li
-                        class="products-list__item products__list-item--submenu"
+                        class="products-list__item products__list-item--submenu products__list-item--submenu-ru"
                       >
                         <a class="products-list__link" href="resins.html"
                           >Смолы для формообразования</a
                         >
                         <img
-                          class="cat-down-img cat-down-img-submenu"
+                          class="cat-down-img cat-down-img-submenu cat-down-img-submenu--ru"
                           src="../images/cat-down.svg"
-                          alt="catalog-down"
+                          alt="Стрелка вниз для раскрытия каталога"
                         />
                         <ul class="products-list__resin">
                           <li class="products-list__resin-item">
@@ -243,7 +246,7 @@
           <img
             class="back-top-btn__img"
             src="../images/arrow-top.svg"
-            alt="arrow top"
+            alt="Стрелка вверх для возвращения в начало страницы"
           />
         </button>
       </header>
@@ -285,11 +288,27 @@
                   </p>
                 </article>
                 <div class="delivery__auto-picture">
-                  <img
-                    class="delivery__auto-image"
-                    src="../images/truck.jpg"
-                    alt="truck"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/truck-2.webp    1x,
+                        ../images/truck-2@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/truck-2.jpg    1x,
+                        ../images/truck-2@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="delivery__auto-image"
+                      src="../images/truck-2.jpg"
+                      alt="Изображение грзовиков для доставки"
+                    />
+                  </picture>
                 </div>
               </div>
             </section>
@@ -298,11 +317,27 @@
             <div class="container">
               <div class="delivery__warehouse-inner">
                 <div class="delivery__warehouse-picture">
-                  <img
-                    class="delivery__warehouse-image"
-                    src="../images/warehouse.jpg"
-                    alt="warehouse"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ../images/warehouse.webp    1x,
+                        ../images/warehouse@2x.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <source
+                      srcset="
+                        ../images/warehouse.jpg    1x,
+                        ../images/warehouse@2x.jpg 2x
+                      "
+                      type="image/jpeg"
+                    />
+                    <img
+                      class="delivery__warehouse-image"
+                      src="../images/warehouse.jpg"
+                      alt="Фото погрузочной техники на складе"
+                    />
+                  </picture>
                 </div>
 
                 <article class="delivery__warehouse-content">
